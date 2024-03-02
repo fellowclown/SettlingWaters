@@ -1,0 +1,156 @@
+{
+"Changes": [
+{
+"LogName": "Mail",
+"Action": "EditData",
+"Target": "data/mail",
+"Entries": {
+"Fellowclown.SW_Marketpalooza.Mail": "{{i18n:FC.Marketpalooza.Mail}}[#]{{i18n:FC.Marketpalooza.Title}}",
+"Fellowclown.SW_ChocoFruit.Mail": "{{i18n:FC.ChocoFruit.Mail}} %item quest Fellowclown.SW_ChocoFruit true %%[#]{{i18n:FC.ChocoFruit.Title}}",
+"Fellowclown.SW_YohoFruit.Mail": "{{i18n:FC.YohoFruit.Mail}} %item quest Fellowclown.SW_YohoFruit true %%[#]{{i18n:FC.YohoFruit.Title}}",
+"Fellowclown.SW_ButtonFruit.Mail": "{{i18n:FC.ButtonFruit.Mail}} %item quest Fellowclown.SW_ButtonFruit true %%[#]{{i18n:FC.ButtonFruit.Title}}",
+"Fellowclown.SW_Cloth.Mail": "{{i18n:FC.Cloth.Mail}} %item quest Fellowclown.SW_Cloth true %%[#]{{i18n:FC.Cloth.Title}}",
+"Fellowclown.SW_WalkMan.Mail": "{{i18n:FC.WalkMan.Mail}} %item quest Fellowclown.SW_WalkMan true %%[#]{{i18n:FC.WalkMan.Title}}",
+"Fellowclown.SW_BithdayInvite": "{{i18n:FC.BithdayInvite.Mail}}[#]{{i18n:FC.BithdayInvite.Mail.Title}}",
+"Fellowclown.SW_RefugeInvite": "{{i18n:FC.RefugeInvite.Mail}}[#]{{i18n:FC.RefugeInvite.Mail.Title}}",
+"Fellowclown.SW_HelpingNikolai": "{{i18n:FC.HelpingNikolai.Mail}}[#]{{i18n:FC.HelpingNikolai.Mail.Title}}",
+
+}
+},
+{
+"Action": "EditData",
+"Target": "Data/TriggerActions",
+"Entries": {
+"Fellowclown.SW_HelpingNikolai.Trigger":  {
+"Id": "Fellowclown.SW_HelpingNikolai.Trigger",
+"Trigger": "DayStarted",
+"Condition": "PLAYER_FRIENDSHIP_POINTS current FC.Nikolai 1500,PLAYER_HAS_SEEN_EVENT current {{ModID}}_NightTerrors",
+"HostOnly": false,
+"Action": "AddMail Current Fellowclown.SW_HelpingNikolai",
+"Actions": null,
+"CustomFields": {}
+}
+}
+},
+{
+"Action": "EditData",
+"Target": "Data/TriggerActions",
+"Entries": {
+"Fellowclown.SW_NikolaisBirthday.Trigger":  {
+"Id": "Fellowclown.SW_NikolaisBirthday.Trigger",
+"Trigger": "DayStarted",
+"Condition": "PLAYER_FRIENDSHIP_POINTS current FC.Nikolai 500,SEASON_DAY Spring 28,WORLD_STATE_FIELD Sun,",
+"HostOnly": false,
+"Action": "AddMail Current Fellowclown.SW_BithdayInvite",
+"Actions": null,
+"CustomFields": {}
+}
+}
+},
+{
+"Action": "EditData",
+"Target": "Data/TriggerActions",
+"Entries": {
+"Fellowclown.SW_RefugeInvite.Trigger":  {
+"Id": "Fellowclown.SW_RefugeInvite.Trigger",
+"Trigger": "DayStarted",
+"Condition": "PLAYER_FRIENDSHIP_POINTS current FC.Nikolai 750,DAY_OF_WEEK Fri",
+"HostOnly": false,
+"Action": "AddMail Current Fellowclown.SW_RefugeInvite",
+"Actions": null,
+"CustomFields": {}
+}
+}
+},
+{
+"Action": "EditData",
+"Target": "Data/TriggerActions",
+"Entries": {
+"Fellowclown.SW_Marketpalooza.Trigger":  {
+"Id": "Fellowclown.SW_Marketpalooza.Trigger",
+"Trigger": "DayStarted",
+"Condition": "SEASON_DAY Summer 27",
+"HostOnly": false,
+"Action": "AddMail Current Fellowclown.SW_Marketpalooza.Mail",
+"Actions": null,
+"CustomFields": {}
+}
+}
+},
+{
+"Action": "EditData",
+"Target": "Data/TriggerActions",
+"Entries": {
+"Fellowclown.SW_ChocoFruit.Trigger":  {
+"Id": "Fellowclown.SW_ChocoFruit.Trigger",
+"Trigger": "DayStarted",
+"Condition": "PLAYER_FRIENDSHIP_POINTS Current FC.Kaia 250",
+"HostOnly": false,
+"Action": "AddMail Current Fellowclown.SW_ChocoFruit.Mail",
+"Actions": null,
+"CustomFields": {}
+}
+}
+},
+{
+"Action": "EditData",
+"Target": "Data/TriggerActions",
+"Entries": {
+"Fellowclown.SW_YohoFruit.Trigger":  {
+"Id": "Fellowclown.SW_YohoFruit.Trigger",
+"Trigger": "DayStarted",
+"Condition": "PLAYER_FRIENDSHIP_POINTS Current FC.Kaia 750",
+"HostOnly": false,
+"Action": "AddMail Current Fellowclown.SW_YohoFruit.Mail",
+"Actions": null,
+"CustomFields": {}
+}
+}
+},
+{
+"Action": "EditData",
+"Target": "Data/TriggerActions",
+"Entries": {
+"Fellowclown.SW_ButtonFruit.Trigger":  {
+"Id": "Fellowclown.SW_ButtonFruit.Trigger",
+"Trigger": "DayStarted",
+"Condition": "PLAYER_FRIENDSHIP_POINTS Current FC.Kaia 2000",
+"HostOnly": false,
+"Action": "AddMail Current Fellowclown.SW_ButtonFruit.Mail",
+"Actions": null,
+"CustomFields": {}
+}
+}
+},
+{
+"Action": "EditData",
+"Target": "Data/TriggerActions",
+"Entries": {
+"Fellowclown.SW_Cloth.Trigger":  {
+"Id": "Fellowclown.SW_Cloth.Trigger",
+"Trigger": "DayStarted",
+"Condition": "PLAYER_FRIENDSHIP_POINTS Current FC.Nikolai 750,SEASON Fall",
+"HostOnly": false,
+"Action": "AddMail Current Fellowclown.SW_Cloth.Mail",
+"Actions": null,
+"CustomFields": {}
+}
+}
+},
+{
+"Action": "EditData",
+"Target": "Data/TriggerActions",
+"Entries": {
+"Fellowclown.SW_WalkMan.Trigger":  {
+"Id": "Fellowclown.SW_WalkMan.Trigger",
+"Trigger": "DayStarted",
+"Condition": "PLAYER_FRIENDSHIP_POINTS Current FC.Nikolai 750,SEASON Winter",
+"HostOnly": false,
+"Action": "AddMail Current Fellowclown.SW_WalkMan.Mail",
+"Actions": null,
+"CustomFields": {}
+}
+}
+},
+]
+}

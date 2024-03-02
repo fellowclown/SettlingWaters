@@ -1,0 +1,69 @@
+{
+"Changes": [
+  {
+            "Action": "EditData",
+            "Target": "Data/AudioChanges",
+            "Entries": {
+                "Fellowclown.SW_Marketpalooza": {
+                    "ID": "Fellowclown.SW_Marketpalooza",
+                    "Category": "Music",
+                    "FilePaths": [ "{{AbsoluteFilePath: assets/Music/Marketpalooza.ogg}}" ],
+                    "StreamedVorbis": true,
+                    "Looped": true
+                }
+            }
+        },
+         {
+            "Action": "EditData",
+            "Target": "Data/AudioChanges",
+            "Entries": {
+                "Fellowclown.SW_Squeak": {
+                    "ID": "Fellowclown.SW_Squeak",
+                    "Category": "Sound",
+                    "FilePaths": [ "{{AbsoluteFilePath: assets/Music/Squeak.ogg}}" ],
+                    "StreamedVorbis": true,
+                    "Looped": false
+                }
+            }
+        },
+          {
+            "Action": "EditData",
+            "Target": "Data/AudioChanges",
+            "Entries": {
+                "Fellowclown.SW_LongSqueak": {
+                    "ID": "Fellowclown.SW_LongSqueak",
+                    "Category": "Sound",
+                    "FilePaths": [ "{{AbsoluteFilePath: assets/Music/LongSqueak.ogg}}" ],
+                    "StreamedVorbis": true,
+                    "Looped": false
+                }
+            }
+        },
+                  {
+            "Action": "EditData",
+            "Target": "Data/AudioChanges",
+            "Entries": {
+                "Fellowclown.SW_Roar": {
+                    "ID": "Fellowclown.SW_Roar",
+                    "Category": "Sound",
+                    "FilePaths": [ "{{AbsoluteFilePath: assets/Music/Roar.ogg}}" ],
+                    "StreamedVorbis": true,
+                    "Looped": false
+                }
+            }
+        },
+                       {
+            "Action": "EditData",
+            "Target": "Data/AudioChanges",
+            "Entries": {
+                "Fellowclown.SW_BabyRoar": {
+                    "ID": "Fellowclown.SW_BabyRoar",
+                    "Category": "Sound",
+                    "FilePaths": [ "{{AbsoluteFilePath: assets/Music/BabyRoar.ogg}}" ],
+                    "StreamedVorbis": true,
+                    "Looped": false
+                }
+            }
+        },
+]
+}

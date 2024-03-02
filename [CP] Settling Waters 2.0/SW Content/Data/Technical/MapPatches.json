@@ -1,0 +1,10 @@
+{
+"Changes": [
+  {
+   "Action": "EditMap",
+   "Target": "Maps/Fellowclown.ClownCore_OldGraveyard",
+   "FromFile": "assets/Maps/Map Patches/LeslasEntrance.tbin",
+   "ToArea": { "X": 32, "Y": 0, "Width": 9, "Height": 6 },
+},
+]
+}

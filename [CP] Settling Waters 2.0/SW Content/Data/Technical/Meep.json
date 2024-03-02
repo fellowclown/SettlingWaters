@@ -1,0 +1,179 @@
+{
+    "Changes": [
+        {
+// Loading old Image
+"Action": "Load",
+"Target": "Mods/{{ModID}}/NikAndKaia",
+"FromFile": "Assets/Meep/{{TargetWithoutPath}}.png"
+},
+ /************************************************
+  Inside The Inn Room
+ ************************************************/
+{
+//  Tile Properties
+"Action": "EditMap",
+"Target": "Maps/Fellowclown.SW_Niksroom",
+"MapTiles": [
+{
+    "Position": {
+"X": 7,
+"Y": 13
+    },
+    "Layer": "Back",
+    "SetProperties": {
+"MEEP_CloseupInteraction_Image_1": "Mods/{{ModID}}/NikAndKaia",
+"MEEP_CloseupInteraction_Text_1": "{{i18n:FC.NikAndKaia}}",   
+    }
+}
+]
+},
+///MOVORAPTORS
+   {
+"Action": "EditMap",
+"Target": "Maps/{{ModID}}_AnimalRefuge",
+
+"MapTiles": [
+{
+"Position": {
+"X": 39,
+"Y": 38
+},
+"Layer": "Back",
+"SetProperties": {
+"MEEP_Letter": "{{i18n:FC.MovoraptorPen}}",
+"MEEP_Letter_Type": "Mods/DecidedlyHuman/FC.CustomLetterType"
+}
+}
+]
+},
+///TAPIS
+   {
+"Action": "EditMap",
+"Target": "Maps/{{ModID}}_AnimalRefuge",
+
+"MapTiles": [
+{
+"Position": {
+"X": 22,
+"Y": 27
+},
+"Layer": "Back",
+"SetProperties": {
+"MEEP_Letter": "{{i18n:FC.TapiPen}}",
+"MEEP_Letter_Type": "Mods/DecidedlyHuman/FC.CustomLetterType"
+}
+}
+]
+},
+///Arkanian Shevit
+{
+"Action": "EditMap",
+"Target": "Maps/{{ModID}}_AnimalRefuge",
+"MapTiles": [
+{
+"Position": {
+"X": 9,
+"Y": 14
+},
+"Layer": "Back",
+"SetProperties": {
+"MEEP_Letter": "{{i18n:FC.Dodo}}",
+"MEEP_Letter_Type": "Mods/DecidedlyHuman/FC.CustomLetterType"
+}
+}
+]
+},
+///Thylacine
+ {
+"Action": "EditMap",
+"Target": "Maps/{{ModID}}_AnimalRefuge",
+"MapTiles": [
+{
+"Position": {
+"X": 30,
+"Y": 26
+},
+"Layer": "Back",
+"SetProperties": {
+"MEEP_Letter": "{{i18n:FC.ThylacinePen}}",
+"MEEP_Letter_Type": "Mods/DecidedlyHuman/FC.CustomLetterType"
+}
+}
+]
+},
+///WARTHOG
+   {
+"Action": "EditMap",
+"Target": "Maps/{{ModID}}_AnimalRefuge",
+
+"MapTiles": [
+{
+"Position": {
+"X": 14,
+"Y": 5
+},
+"Layer": "Back",
+"SetProperties": {
+"MEEP_Letter": "{{i18n:FC.WarthogPen}}",
+"MEEP_Letter_Type": "Mods/DecidedlyHuman/FC.CustomLetterType"
+}
+}
+]
+},
+///DYONOUS
+   {
+"Action": "EditMap",
+"Target": "Maps/{{ModID}}_AnimalRefuge",
+
+"MapTiles": [
+{
+"Position": {
+"X": 11,
+"Y": 31
+},
+"Layer": "Back",
+"SetProperties": {
+"MEEP_Letter": "{{i18n:FC.DyonousPen}}",
+"MEEP_Letter_Type": "Mods/DecidedlyHuman/FC.CustomLetterType"
+}
+}
+]
+},
+///Durrah
+ {
+"Action": "EditMap",
+"Target": "Maps/{{ModID}}_AnimalRefuge",
+"MapTiles": [
+{
+"Position": {
+"X": 19,
+"Y": 15
+},
+"Layer": "Back",
+"SetProperties": {
+"MEEP_Letter": "{{i18n:FC.Durrah}}",
+"MEEP_Letter_Type": "Mods/DecidedlyHuman/FC.CustomLetterType"
+}
+}
+]
+},
+///Shevit
+ {
+"Action": "EditMap",
+"Target": "Maps/{{ModID}}_AnimalRefuge",
+"MapTiles": [
+{
+"Position": {
+"X": 33,
+"Y": 42
+},
+"Layer": "Back",
+"SetProperties": {
+"MEEP_Letter": "{{i18n:FC.Shevit}}",
+"MEEP_Letter_Type": "Mods/DecidedlyHuman/FC.CustomLetterType"
+}
+}
+]
+},
+],
+}

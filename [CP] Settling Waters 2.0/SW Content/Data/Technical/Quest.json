@@ -1,0 +1,16 @@
+{
+"Changes": [
+{
+"LogName": "Quests",
+"Action": "EditData",
+"Target": "Data/Quests",
+"Entries": {
+"Fellowclown.SW_ChocoFruit": "ItemDelivery/{{i18n:FC.ChocoFruit.Quest.Title}}/{{i18n:FC.ChocoFruit.Quest.Desc}}./{{i18n:FC.ChocoFruit.Quest.Obj}}/FC.Kaia Fellowclown.SW_ChocoFruit 1/-1/150/-1/true/{{i18n:ChocoFruit.Quest.Reaction}}",
+"Fellowclown.SW_YohoFruit": "ItemDelivery/{{i18n:FC.YohoFruit.Quest.Title}}/{{i18n:FC.YohoFruit.Quest.Desc}}./{{i18n:FC.YohoFruit.Quest.Obj}}/FC.Kaia Fellowclown.SW_YohoFruitSeeds 2/-1/0/-1/true/{{i18n:YohoFruit.Quest.Reaction}}",
+"Fellowclown.SW_ButtonFruit": "ItemDelivery/{{i18n:FC.ButtonFruit.Quest.Title}}/{{i18n:FC.ButtonFruit.Quest.Desc}}./{{i18n:FC.ButtonFruit.Quest.Obj}}/FC.Kaia Fellowclown.SW_ButtonFruitSeeds 2/-1/350/-1/true/{{i18n:ButtonFruit.Quest.Reaction}}",
+"Fellowclown.SW_Cloth": "ItemDelivery/{{i18n:FC.Cloth.Quest.Title}}/{{i18n:FC.Cloth.Quest.Desc}}./{{i18n:FC.Cloth.Quest.Obj}}/FC.Nikolai 428 4/-1/500/-1/true/{{i18n:Cloth.Quest.Reaction}}",
+"Fellowclown.SW_WalkMan": "LostItem/{{i18n:FC.WalkMan.Quest.Title}}/{{i18n:FC.WalkMan.Quest.Desc}}/{{i18n:FC.WalkMan.Quest.Obj}}/FC.Nikolai Fellowclown.SW_WalkMan Forest 65 95/-1/1500/-1/true/{{i18n:FC.WalkMan.Reaction}}",
+}
+},
+]
+}

@@ -1,0 +1,147 @@
+{
+	  "Changes": [
+	  	  {
+            "Action": "Load",
+            "Target": "Mods/Fellowclown.SW/JokeTools",
+            "FromFile": "Assets/Objects/{{TargetWithoutPath}}.png"
+        },
+	  	{
+      "Action": "EditData",
+      "Target": "Data/Tools",
+      "Entries": {
+         "Fellowclown.SW_SqueakyAxe": {
+    "ClassName": "Axe",
+    "Name": "Fellowclown.SW_SqueakyAxe",
+    "AttachmentSlots": -1,
+    "SalePrice": -1,
+    "DisplayName": "Colorful Axe",
+    "Description": "A very colorful Axe",
+    "Texture": "Mods/Fellowclown.SW/JokeTools",
+    "SpriteIndex": 6,
+    "MenuSpriteIndex": 17,
+    "UpgradeLevel": 0,
+    "ApplyUpgradeLevelToDisplayName": false,
+    "ConventionalUpgradeFrom": null,
+    "UpgradeFrom": null,
+    "CanBeLostOnDeath": false,
+    "SetProperties": null,
+    "ModData": null,
+    "CustomFields": {
+      "DecidedlyHuman.ClownsSqueakyTools/FC.ToolSound": "Fellowclown.SW_Squeak"
+    }
+  },
+}
+},
+    {
+      "Action": "EditData",
+      "Target": "Data/Tools",
+      "Entries": {
+         "Fellowclown.SW_SqueakyPick": {
+    "ClassName": "Pickaxe",
+    "Name": "Fellowclown.SW_SqueakyPick",
+    "AttachmentSlots": -1,
+    "SalePrice": -1,
+    "DisplayName": "Colorful Pickaxe",
+    "Description": "A very colorful Pickaxe.",
+    "Texture": "Mods/Fellowclown.SW/JokeTools",
+    "SpriteIndex": 18,
+    "MenuSpriteIndex": 29,
+    "UpgradeLevel": 0,
+    "ApplyUpgradeLevelToDisplayName": false,
+    "ConventionalUpgradeFrom": null,
+    "UpgradeFrom": null,
+    "CanBeLostOnDeath": false,
+    "SetProperties": null,
+    "ModData": null,
+    "CustomFields": {
+      "DecidedlyHuman.ClownsSqueakyTools/FC.ToolSound": "Fellowclown.SW_Squeak"
+    }
+  },
+}
+      },
+          {
+      "Action": "EditData",
+      "Target": "Data/Tools",
+      "Entries": {
+         "Fellowclown.SW_ColorfulCan": {
+    "ClassName": "WateringCan",
+    "Name": "Fellowclown.SW_ColorfulCan",
+    "AttachmentSlots": -1,
+    "SalePrice": -1,
+    "DisplayName": "Colorful Watering Can",
+    "Description": "A very Watering Can.",
+    "Texture": "Mods/Fellowclown.SW/JokeTools",
+    "SpriteIndex": 30,
+    "MenuSpriteIndex": 41,
+    "UpgradeLevel": 0,
+    "ApplyUpgradeLevelToDisplayName": false,
+    "ConventionalUpgradeFrom": null,
+    "UpgradeFrom": null,
+    "CanBeLostOnDeath": false,
+    "SetProperties": null,
+    "ModData": null,
+    "CustomFields": {
+        "DecidedlyHuman.ClownsSqueakyTools/FC.ToolSound": "Fellowclown.SW_LongSqueak"
+    }
+  },
+}
+      },
+       {
+      "Action": "EditData",
+      "Target": "Data/Tools",
+      "Entries": {
+         "Fellowclown.SW_SqueakyHoe": {
+    "ClassName": "Hoe",
+    "Name": "Fellowclown.SW_SqueakyHoe",
+    "AttachmentSlots": -1,
+    "SalePrice": -1,
+    "DisplayName": "Colorful Hoe",
+    "Description": "A very colorful Hoe.",
+    "Texture": "Mods/Fellowclown.SW/JokeTools",
+    "SpriteIndex": 42,
+    "MenuSpriteIndex": 53,
+    "UpgradeLevel": 0,
+    "ApplyUpgradeLevelToDisplayName": false,
+    "ConventionalUpgradeFrom": null,
+    "UpgradeFrom": null,
+    "CanBeLostOnDeath": false,
+    "SetProperties": null,
+    "ModData": null,
+    "CustomFields": {
+      "DecidedlyHuman.ClownsSqueakyTools/FC.ToolSound": "Fellowclown.SW_Squeak"
+    }
+  },
+}
+      }, 
+          {
+"Action": "EditData",
+"Target": "Data/Weapons",
+"Entries": {
+  "Fellowclown.SW_SqueakySword": {
+   "Name": "Fellowclown.SW_SqueakySword",
+    "DisplayName": "Colorful Sword",
+    "Description": "A very colorful Sword.",
+    "MinDamage": 4,
+    "MaxDamage": 10,
+    "Knockback": 4,
+    "Speed": 2,
+    "Precision": 2,
+    "Defense": 2,
+    "Type": 3,
+    "MineBaseLevel": -1,
+    "MineMinLevel": -1,
+    "AreaOfEffect": 0,
+    "CritChance": 0.02,
+    "CritMultiplier": 3.0,
+    "CanBeLostOnDeath": false,
+    "Texture": "Mods/Fellowclown.SW/JokeTools",
+    "SpriteIndex": 0,
+    "Projectiles": null,
+    "CustomFields": {
+         "DecidedlyHuman.ClownsSqueakyTools/FC.ToolSound": "Fellowclown.SW_Squeak"
+    }
+  }
+  },
+},  
+]
+}

@@ -1,0 +1,1747 @@
+{
+    "Changes": [
+
+        /************************************************
+ ** Custom Objects, crops, fruit trees and Furniture
+ ************************************************/
+    {
+"Action": "EditData",
+"Target": "Data/Weapons",
+"Entries": {
+  "Fellowclown.SW_Sword0": {
+   "Name": "Fellowclown.SW_Sword0",
+    "DisplayName": "{{i18n:FC.Sword0}}",
+    "Description": "{{i18n:FC.Sword0.Desc}}",
+    "MinDamage": 8,
+    "MaxDamage": 15,
+    "Knockback": 2,
+    "Speed": 2,
+    "Precision": 2,
+    "Defense": 2,
+    "Type": 3,
+    "MineBaseLevel": -1,
+    "MineMinLevel": -1,
+    "AreaOfEffect": 0,
+    "CritChance": 0.02,
+    "CritMultiplier": 3.0,
+    "CanBeLostOnDeath": true,
+    "Texture": "Mods/Fellowclown.SW/Weapons",
+    "SpriteIndex": 0,
+    "Projectiles": null,
+    "CustomFields": {}
+  }
+  },
+},
+   {
+"Action": "EditData",
+"Target": "Data/Weapons",
+"Entries": {
+  "Fellowclown.SW_Sword1": {
+   "Name": "Fellowclown.SW_Sword1",
+    "DisplayName": "{{i18n:FC.Sword1}}",
+    "Description": "{{i18n:FC.Sword1.Desc}}",
+    "MinDamage": 3,
+    "MaxDamage": 5,
+    "Knockback": 1.0,
+    "Speed": 0,
+    "Precision": 0,
+    "Defense": 0,
+    "Type": 3,
+    "MineBaseLevel": -1,
+    "MineMinLevel": -1,
+    "AreaOfEffect": 0,
+    "CritChance": 0.02,
+    "CritMultiplier": 3.0,
+    "CanBeLostOnDeath": true,
+    "Texture": "Mods/Fellowclown.SW/Weapons",
+    "SpriteIndex": 1,
+    "Projectiles": null,
+    "CustomFields": {}
+  }
+  },
+},
+    {
+"Action": "EditData",
+"Target": "Data/Weapons",
+"Entries": {
+  "Fellowclown.SW_Sword2": {
+   "Name": "Fellowclown.SW_Sword2",
+    "DisplayName": "{{i18n:FC.Sword2}}",
+    "Description": "{{i18n:FC.Sword2.Desc}}",
+    "MinDamage": 8,
+    "MaxDamage": 15,
+    "Knockback": 1.0,
+    "Speed": 2,
+    "Precision": 2,
+    "Defense": 2,
+    "Type": 3,
+    "MineBaseLevel": -1,
+    "MineMinLevel": -1,
+    "AreaOfEffect": 0,
+    "CritChance": 0.02,
+    "CritMultiplier": 3.0,
+    "CanBeLostOnDeath": true,
+    "Texture": "Mods/Fellowclown.SW/Weapons",
+    "SpriteIndex": 2,
+    "Projectiles": null,
+    "CustomFields": {}
+  }
+  },
+},
+    {
+"Action": "EditData",
+"Target": "Data/Weapons",
+"Entries": {
+  "Fellowclown.SW_Sword3": {
+   "Name": "Fellowclown.SW_Sword3",
+    "DisplayName": "{{i18n:FC.Sword3}}",
+    "Description": "{{i18n:FC.Sword3.Desc}}",
+    "MinDamage": 3,
+    "MaxDamage": 5,
+    "Knockback": 1.0,
+    "Speed": 0,
+    "Precision": 0,
+    "Defense": 0,
+    "Type": 3,
+    "MineBaseLevel": -1,
+    "MineMinLevel": -1,
+    "AreaOfEffect": 0,
+    "CritChance": 0.02,
+    "CritMultiplier": 3.0,
+    "CanBeLostOnDeath": true,
+    "Texture": "Mods/Fellowclown.SW/Weapons",
+    "SpriteIndex": 3,
+    "Projectiles": null,
+    "CustomFields": {}
+  }
+  },
+},
+    {
+"Action": "EditData",
+"Target": "Data/Weapons",
+"Entries": {
+  "Fellowclown.SW_Sword4": {
+   "Name": "Fellowclown.SW_Sword4",
+    "DisplayName": "{{i18n:FC.Sword4}}",
+    "Description": "{{i18n:FC.Sword4.Desc}}",
+    "MinDamage": 8,
+    "MaxDamage": 15,
+    "Knockback": 1.0,
+    "Speed": 2,
+    "Precision":2,
+    "Defense": 2,
+    "Type": 3,
+    "MineBaseLevel": -1,
+    "MineMinLevel": -1,
+    "AreaOfEffect": 0,
+    "CritChance": 0.02,
+    "CritMultiplier": 3.0,
+    "CanBeLostOnDeath": true,
+    "Texture": "Mods/Fellowclown.SW/Weapons",
+    "SpriteIndex": 4,
+    "Projectiles": null,
+    "CustomFields": {}
+  }
+  },
+},
+
+    {
+"Action": "EditData",
+"Target": "Data/Weapons",
+"Entries": {
+  "Fellowclown.SW_Sword5": {
+   "Name": "Fellowclown.SW_Sword5",
+    "DisplayName": "{{i18n:FC.Sword5}}",
+    "Description": "{{i18n:FC.Sword5.Desc}}",
+    "MinDamage": 8,
+    "MaxDamage": 15,
+    "Knockback": 3,
+    "Speed": 4,
+    "Precision":5,
+    "Defense": 0,
+    "Type": 3,
+    "MineBaseLevel": -1,
+    "MineMinLevel": -1,
+    "AreaOfEffect": 0,
+    "CritChance": 0.02,
+    "CritMultiplier": 3.0,
+    "CanBeLostOnDeath": true,
+    "Texture": "Mods/Fellowclown.SW/Weapons",
+    "SpriteIndex": 5,
+    "Projectiles": null,
+    "CustomFields": {}
+  }
+  },
+},
+{
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+  "Fellowclown.SW_Ring0": {
+    "Name": "Fellowclown.SW_Ring0",
+    "DisplayName": "{{i18n:FC.Ring0}}",
+    "Description": "{{i18n:FC.Ring0.Desc}}",
+    "Type": "Ring",
+    "Category": -96,
+    "Price": 0,
+    "ExcludeFromPerfectionShipping": true,
+    "Buff": {
+      "BuffId": null,
+      "Duration": 0,
+      "CustomAttributes": {
+        "FarmingLevel": 0,
+        "FishingLevel": 0,
+        "MiningLevel": 0,
+        "LuckLevel": 0,
+        "ForagingLevel": 0,
+        "MaxStamina": 0,
+        "MagneticRadius": 0,
+        "Speed": -2,
+        "Defense": 4,
+        "Attack": 0,
+      }
+    },
+    "Texture": "Mods/Fellowclown.SW/Weapons",
+    "SpriteIndex": 6
+  },
+}
+},
+{
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+  "Fellowclown.SW_Ring1": {
+    "Name": "Fellowclown.SW_Ring1",
+    "DisplayName": "{{i18n:FC.Ring1}}",
+    "Description": "{{i18n:FC.Ring1.Desc}}",
+    "Type": "Ring",
+    "Category": -96,
+    "Price": 0,
+    "ExcludeFromPerfectionShipping": true,
+    "Buff": {
+      "BuffId": null,
+      "Duration": 0,
+      "CustomAttributes": {
+        "FarmingLevel": 0,
+        "FishingLevel": 0,
+        "MiningLevel": 0,
+        "LuckLevel": 5,
+        "ForagingLevel": 0,
+        "MaxStamina": 0,
+        "MagneticRadius": 0,
+        "Speed": 0,
+        "Defense": 0,
+        "Attack": 0,
+      }
+    },
+    "Texture": "Mods/Fellowclown.SW/Weapons",
+    "SpriteIndex": 7
+  },
+}
+},
+{
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+  "Fellowclown.SW_Ring2": {
+    "Name": "Fellowclown.SW_Ring2",
+    "DisplayName": "{{i18n:FC.Ring2}}",
+    "Description": "{{i18n:FC.Ring2.Desc}}",
+    "Type": "Ring",
+    "Category": -96,
+    "Price": 0,
+    "ExcludeFromPerfectionShipping": true,
+    "Buff": {
+      "BuffId": null,
+      "Duration": 0,
+      "CustomAttributes": {
+        "FarmingLevel": 0,
+        "FishingLevel": 0,
+        "MiningLevel": 0,
+        "LuckLevel": 0,
+        "ForagingLevel": 0,
+        "MaxStamina": 0,
+        "MagneticRadius": 0,
+        "Speed": 0,
+        "Defense": 0,
+        "Attack": 4,
+      }
+    },
+    "Texture": "Mods/Fellowclown.SW/Weapons",
+    "SpriteIndex": 8
+  },
+}
+},
+{
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+  "Fellowclown.SW_Ring3": {
+    "Name": "Fellowclown.SW_Ring3",
+    "DisplayName": "{{i18n:FC.Ring3}}",
+    "Description": "{{i18n:FC.Ring3.Desc}}",
+    "Type": "Ring",
+    "Category": -96,
+    "Price": 0,
+    "ExcludeFromPerfectionShipping": true,
+    "Buff": {
+      "BuffId": null,
+      "Duration": 0,
+      "CustomAttributes": {
+        "FarmingLevel": 0,
+        "FishingLevel": 0,
+        "MiningLevel": 0,
+        "LuckLevel": 0,
+        "ForagingLevel": 0,
+        "MaxStamina": 0,
+        "MagneticRadius": 0,
+        "Speed": 0,
+        "Defense": 2,
+        "Attack": 2,
+      }
+    },
+    "Texture": "Mods/Fellowclown.SW/Weapons",
+    "SpriteIndex": 9
+  },
+}
+},
+{
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+  "Fellowclown.SW_Ring4": {
+    "Name": "Fellowclown.SW_Ring4",
+    "DisplayName": "{{i18n:FC.Ring4}}",
+    "Description": "{{i18n:FC.Ring4.Desc}}",
+    "Type": "Ring",
+    "Category": -96,
+    "Price": 0,
+    "ExcludeFromPerfectionShipping": true,
+    "Buff": {
+      "BuffId": null,
+      "Duration": 0,
+      "CustomAttributes": {
+        "FarmingLevel": 0,
+        "FishingLevel": 0,
+        "MiningLevel": 0,
+        "LuckLevel": 0,
+        "ForagingLevel": 0,
+        "MaxStamina": 0,
+        "MagneticRadius": 0,
+        "Speed": 3,
+        "Defense": 0,
+        "Attack": 0,
+      }
+    },
+    "Texture": "Mods/Fellowclown.SW/Weapons",
+    "SpriteIndex": 10
+  },
+}
+},
+{
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+  "Fellowclown.SW_Ring5": {
+    "Name": "Fellowclown.SW_Ring5",
+    "DisplayName": "{{i18n:FC.Ring5}}",
+    "Description": "{{i18n:FC.Ring5.Desc}}",
+    "Type": "Ring",
+    "Category": -96,
+    "Price": 0,
+    "ExcludeFromPerfectionShipping": true,
+    "Buff": {
+      "BuffId": null,
+      "Duration": 0,
+      "CustomAttributes": {
+        "FarmingLevel": 0,
+        "FishingLevel": 0,
+        "MiningLevel": 0,
+        "LuckLevel": 2,
+        "ForagingLevel": 0,
+        "MaxStamina": 0,
+        "MagneticRadius": 0,
+        "Speed": 0,
+        "Defense": 2,
+        "Attack": 0,
+      }
+    },
+    "Texture": "Mods/Fellowclown.SW/Weapons",
+    "SpriteIndex": 11
+  },
+}
+},
+   {
+"Action": "EditData",
+"Target": "Data/Shirts",
+"Entries": {
+"Fellowclown.SW_Shirt0": {
+"Name": "Fellowclown.SW_Shirt0",
+"DisplayName": "{{i18n:FC.Shirt0}}",
+"Description": "{{i18n:FC.Shirt0.Desc}}",
+"Price": 50,
+"Texture": "Mods/Fellowclown.SW/Shirts",
+"SpriteIndex": 0,
+"DefaultColor": null,
+"CanBeDyed": false,
+"IsPrismatic": false,
+"HasSleeves": true,
+"CanChooseDuRingCharacterCustomization": false,
+"CustomFields": {}
+  },
+}
+  },
+  {
+"Action": "EditData",
+"Target": "Data/Shirts",
+"Entries": {
+"Fellowclown.SW_Shirt1": {
+"Name": "Fellowclown.SW_Shirt1",
+"DisplayName": "{{i18n:FC.Shirt1}}",
+"Description": "{{i18n:FC.Shirt1.Desc}}",
+"Price": 50,
+"Texture": "Mods/Fellowclown.SW/Shirts",
+"SpriteIndex": 1,
+"DefaultColor": null,
+"CanBeDyed": false,
+"IsPrismatic": false,
+"HasSleeves": true,
+"CanChooseDuRingCharacterCustomization": false,
+"CustomFields": {}
+  },
+}
+  },
+{
+"Action": "EditData",
+"Target": "Data/Shirts",
+"Entries": {
+"Fellowclown.SW_Shirt2": {
+"Name": "Fellowclown.SW_Shirt2",
+"DisplayName": "{{i18n:FC.Shirt2}}",
+"Description": "{{i18n:FC.Shirt2.Desc}}",
+"Price": 50,
+"Texture": "Mods/Fellowclown.SW/Shirts",
+"SpriteIndex": 2,
+"DefaultColor": null,
+"CanBeDyed": false,
+"IsPrismatic": false,
+"HasSleeves": true,
+"CanChooseDuRingCharacterCustomization": false,
+"CustomFields": {}
+  },
+}
+  },
+ {
+"Action": "EditData",
+"Target": "Data/Shirts",
+"Entries": {
+"Fellowclown.SW_Shirt3": {
+"Name": "Fellowclown.SW_Shirt3",
+"DisplayName": "{{i18n:FC.Shirt3}}",
+"Description": "{{i18n:FC.Shirt3.Desc}}",
+"Price": 50,
+"Texture": "Mods/Fellowclown.SW/Shirts",
+"SpriteIndex": 3,
+"DefaultColor": null,
+"CanBeDyed": false,
+"IsPrismatic": false,
+"HasSleeves": true,
+"CanChooseDuRingCharacterCustomization": false,
+"CustomFields": {}
+  },
+}
+  },
+   {
+"Action": "EditData",
+"Target": "Data/Shirts",
+"Entries": {
+"Fellowclown.SW_Shirt4": {
+"Name": "Fellowclown.SW_Shirt4",
+"DisplayName": "{{i18n:FC.Shirt4}}",
+"Description": "{{i18n:FC.Shirt4.Desc}}",
+"Price": 50,
+"Texture": "Mods/Fellowclown.SW/Shirts",
+"SpriteIndex": 4,
+"DefaultColor": null,
+"CanBeDyed": false,
+"IsPrismatic": false,
+"HasSleeves": true,
+"CanChooseDuRingCharacterCustomization": false,
+"CustomFields": {}
+  },
+}
+  },
+ {
+"Action": "EditData",
+"Target": "Data/Shirts",
+"Entries": {
+"Fellowclown.SW_Shirt5": {
+"Name": "Fellowclown.SW_Shirt5",
+"DisplayName": "{{i18n:FC.Shirt5}}",
+"Description": "{{i18n:FC.Shirt5.Desc}}",
+"Price": 50,
+"Texture": "Mods/Fellowclown.SW/Shirts",
+"SpriteIndex": 5,
+"DefaultColor": null,
+"CanBeDyed": false,
+"IsPrismatic": false,
+"HasSleeves": true,
+"CanChooseDuRingCharacterCustomization": false,
+"CustomFields": {}
+  },
+}
+  },
+   {
+"Action": "EditData",
+"Target": "Data/Shirts",
+"Entries": {
+"Fellowclown.SW_Shirt6": {
+"Name": "Fellowclown.SW_Shirt6",
+"DisplayName": "{{i18n:FC.Shirt6}}",
+"Description": "{{i18n:FC.Shirt6.Desc}}",
+"Price": 50,
+"Texture": "Mods/Fellowclown.SW/Shirts",
+"SpriteIndex": 6,
+"DefaultColor": null,
+"CanBeDyed": false,
+"IsPrismatic": false,
+"HasSleeves": true,
+"CanChooseDuRingCharacterCustomization": false,
+"CustomFields": {}
+  },
+}
+  },
+   {
+"Action": "EditData",
+"Target": "Data/Shirts",
+"Entries": {
+"Fellowclown.SW_Shirt7": {
+"Name": "Fellowclown.SW_Shirt7",
+"DisplayName": "{{i18n:FC.Shirt7}}",
+"Description": "{{i18n:FC.Shirt7.Desc}}",
+"Price": 50,
+"Texture": "Mods/Fellowclown.SW/Shirts",
+"SpriteIndex": 7,
+"DefaultColor": null,
+"CanBeDyed": false,
+"IsPrismatic": false,
+"HasSleeves": true,
+"CanChooseDuRingCharacterCustomization": false,
+"CustomFields": {}
+  },
+}
+  },
+  {
+"Action": "EditData",
+"Target": "Data/Shirts",
+"Entries": {
+"Fellowclown.SW_Shirt8": {
+"Name": "Fellowclown.SW_Shirt8",
+"DisplayName": "{{i18n:FC.Shirt8}}",
+"Description": "{{i18n:FC.Shirt8.Desc}}",
+"Price": 50,
+"Texture": "Mods/Fellowclown.SW/Shirts",
+"SpriteIndex": 8,
+"DefaultColor": null,
+"CanBeDyed": false,
+"IsPrismatic": false,
+"HasSleeves": true,
+"CanChooseDuRingCharacterCustomization": false,
+"CustomFields": {}
+  },
+}
+  },
+{
+"Action": "EditData",
+"Target": "Data/Shirts",
+"Entries": {
+"Fellowclown.SW_Shirt9": {
+"Name": "Fellowclown.SW_Shirt9",
+"DisplayName": "{{i18n:FC.Shirt9}}",
+"Description": "{{i18n:FC.Shirt9.Desc}}",
+"Price": 50,
+"Texture": "Mods/Fellowclown.SW/Shirts",
+"SpriteIndex": 9,
+"DefaultColor": null,
+"CanBeDyed": false,
+"IsPrismatic": false,
+"HasSleeves": true,
+"CanChooseDuRingCharacterCustomization": false,
+"CustomFields": {}
+  },
+}
+  },
+  {
+"Action": "EditData",
+"Target": "Data/Shirts",
+"Entries": {
+"Fellowclown.SW_Shirt10": {
+"Name": "Fellowclown.SW_Shirt10",
+"DisplayName": "{{i18n:FC.Shirt10}}",
+"Description": "{{i18n:FC.Shirt10.Desc}}",
+"Price": 50,
+"Texture": "Mods/Fellowclown.SW/Shirts",
+"SpriteIndex": 10,
+"DefaultColor": null,
+"CanBeDyed": false,
+"IsPrismatic": false,
+"HasSleeves": true,
+"CanChooseDuRingCharacterCustomization": false,
+"CustomFields": {}
+  },
+}
+  },
+   {
+"Action": "EditData",
+"Target": "Data/Shirts",
+"Entries": {
+"Fellowclown.SW_Shirt11": {
+"Name": "Fellowclown.SW_Shirt11",
+"DisplayName": "{{i18n:FC.Shirt11}}",
+"Description": "{{i18n:FC.Shirt11.Desc}}",
+"Price": 50,
+"Texture": "Mods/Fellowclown.SW/Shirts",
+"SpriteIndex": 11,
+"DefaultColor": null,
+"CanBeDyed": false,
+"IsPrismatic": false,
+"HasSleeves": true,
+"CanChooseDuRingCharacterCustomization": false,
+"CustomFields": {}
+  },
+}
+  },
+ {
+"Action": "EditData",
+"Target": "Data/Shirts",
+"Entries": {
+"Fellowclown.SW_Shirt12": {
+"Name": "Fellowclown.SW_Shirt12",
+"DisplayName": "{{i18n:FC.Shirt12}}",
+"Description": "{{i18n:FC.Shirt12.Desc}}",
+"Price": 50,
+"Texture": "Mods/Fellowclown.SW/Shirts",
+"SpriteIndex": 12,
+"DefaultColor": null,
+"CanBeDyed": false,
+"IsPrismatic": false,
+"HasSleeves": true,
+"CanChooseDuRingCharacterCustomization": false,
+"CustomFields": {}
+  },
+}
+  },
+   {
+"Action": "EditData",
+"Target": "Data/Shirts",
+"Entries": {
+"Fellowclown.SW_Shirt13": {
+"Name": "Fellowclown.SW_Shirt13",
+"DisplayName": "{{i18n:FC.Shirt13}}",
+"Description": "{{i18n:FC.Shirt13.Desc}}",
+"Price": 50,
+"Texture": "Mods/Fellowclown.SW/Shirts",
+"SpriteIndex": 13,
+"DefaultColor": null,
+"CanBeDyed": false,
+"IsPrismatic": false,
+"HasSleeves": true,
+"CanChooseDuRingCharacterCustomization": false,
+"CustomFields": {}
+  },
+}
+  },
+ {
+"Action": "EditData",
+"Target": "Data/Shirts",
+"Entries": {
+"Fellowclown.SW_Shirt14": {
+"Name": "Fellowclown.SW_Shirt14",
+"DisplayName": "{{i18n:FC.Shirt14}}",
+"Description": "{{i18n:FC.Shirt14.Desc}}",
+"Price": 50,
+"Texture": "Mods/Fellowclown.SW/Shirts",
+"SpriteIndex": 14,
+"DefaultColor": null,
+"CanBeDyed": false,
+"IsPrismatic": false,
+"HasSleeves": true,
+"CanChooseDuRingCharacterCustomization": false,
+"CustomFields": {}
+  },
+}
+  },
+{
+"Action": "EditData",
+"Target": "Data/Shirts",
+"Entries": {
+"Fellowclown.SW_Shirt15": {
+"Name": "Fellowclown.SW_Shirt15",
+"DisplayName": "{{i18n:FC.Shirt15}}",
+"Description": "{{i18n:FC.Shirt15.Desc}}",
+"Price": 50,
+"Texture": "Mods/Fellowclown.SW/Shirts",
+"SpriteIndex": 15,
+"DefaultColor": null,
+"CanBeDyed": false,
+"IsPrismatic": false,
+"HasSleeves": true,
+"CanChooseDuRingCharacterCustomization": false,
+"CustomFields": {}
+  },
+}
+  },
+   {
+"Action": "EditData",
+"Target": "Data/BigCraftables",
+"Entries": {
+"Fellowclown.SW_MarketpaloozaOddCrow1": {
+"Name": "Fellowclown.SW_MarketpaloozaOddCrow1",
+"DisplayName": "{{i18n:FC.MarketpaloozaOddCrow}}",
+"Description": "{{i18n:FC.MarketpaloozaOddCrow.Desc}}",
+"Price": 50000,
+"Fragility": 0,
+"CanBePlacedOuSWoors": true,
+"CanBePlacedIndoors": true,
+"IsLamp": false,
+"Texture": "Mods/Fellowclown.SW/Objects",
+"SpriteIndex": 16,
+  "ContextTags": ["crow_scare", "crow_scare_radius_20"],
+"CustomFields": {}
+  },
+}
+},
+   {
+"Action": "EditData",
+"Target": "Data/BigCraftables",
+"Entries": {
+"Fellowclown.SW_MarketpaloozaOddCrow2": {
+"Name": "Fellowclown.SW_MarketpaloozaOddCrow2",
+"DisplayName": "{{i18n:FC.MarketpaloozaOddCrow}}",
+"Description": "{{i18n:FC.MarketpaloozaOddCrow.Desc}}",
+"Price": 50000,
+"Fragility": 0,
+"CanBePlacedOuSWoors": true,
+"CanBePlacedIndoors": true,
+"IsLamp": false,
+"Texture": "Mods/Fellowclown.SW/Objects",
+"SpriteIndex": 17,
+  "ContextTags": ["crow_scare", "crow_scare_radius_20"],
+"CustomFields": {}
+  },
+}
+},
+   {
+"Action": "EditData",
+"Target": "Data/BigCraftables",
+"Entries": {
+"Fellowclown.SW_MarketpaloozaOddCrow3": {
+"Name": "Fellowclown.SW_MarketpaloozaOddCrow3",
+"DisplayName": "{{i18n:FC.MarketpaloozaOddCrow}}",
+"Description": "{{i18n:FC.MarketpaloozaOddCrow.Desc}}",
+"Price": 50000,
+"Fragility": 0,
+"CanBePlacedOuSWoors": true,
+"CanBePlacedIndoors": true,
+"IsLamp": false,
+"Texture": "Mods/Fellowclown.SW/Objects",
+"SpriteIndex": 18,
+  "ContextTags": ["crow_scare", "crow_scare_radius_20"],
+"CustomFields": {}
+  },
+}
+},
+   {
+"Action": "EditData",
+"Target": "Data/BigCraftables",
+"Entries": {
+"Fellowclown.SW_MarketpaloozaOddCrow4": {
+"Name": "Fellowclown.SW_MarketpaloozaOddCrow4",
+"DisplayName": "{{i18n:FC.MarketpaloozaOddCrow}}",
+"Description": "{{i18n:FC.MarketpaloozaOddCrow.Desc}}",
+"Price": 50000,
+"Fragility": 0,
+"CanBePlacedOuSWoors": true,
+"CanBePlacedIndoors": true,
+"IsLamp": false,
+"Texture": "Mods/Fellowclown.SW/Objects",
+"SpriteIndex": 19,
+  "ContextTags": ["crow_scare", "crow_scare_radius_20"],
+"CustomFields": {}
+  },
+}
+},
+{
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+    "Fellowclown.SW_WalkMan": {
+    "Name": "Fellowclown.SW_WalkMan",
+    "DisplayName": "{{i18n:FC.WalkManQuest}}",
+    "Description": "{{i18n:FC.WalkManQuest.Desc}}",
+    "Type": "Quest",
+    "Category": -24,
+     "Price": 0,
+  "ExcludeFromPerfectionShipping": true,
+    "Buff": {
+      "BuffId": null,
+      "Duration": 0,
+      "CustomAttributes": {
+        "FarmingLevel": 0,
+        "FishingLevel": 0,
+        "MiningLevel": 0,
+        "LuckLevel": 0,
+        "ForagingLevel": 0,
+        "MaxStamina": 0,
+        "MagneticRadius": 0,
+        "Speed": 0,
+        "Defense": 0,
+        "Attack": 0
+      }
+    },
+    "Texture": "Mods/Fellowclown.TW/Objects",
+    "SpriteIndex": 36
+  },
+}
+},
+   {
+"Action": "EditData",
+"Target": "Data/Objects",
+"Entries": {
+  "Fellowclown.SW_CherryBlossomHoney": {
+"Name": "Fellowclown.SW_CherryBlossomHoney",
+"DisplayName": "{{i18n:FC.CherryBlossomHoney}}",
+"Description": "{{i18n:FC.CherryBlossomHoney.Desc}}",
+"Type": "Artisan Goods",
+"Category": -26,
+ "Price": 2000,
+"Edibility": 25,
+"IsDrink": true,
+"ExcludeFromPerfectionShipping": true,
+"Buff": {
+  "BuffId": "{{i18n:FC.CherryBlossomHoney.Buff}}",
+  "Duration": 7,
+  "CustomAttributes": {
+"FarmingLevel": 0,
+"FishingLevel": 0,
+"MiningLevel": 0,
+"LuckLevel": 4,
+"ForagingLevel": 0,
+"MaxStamina": 2,
+"MagneticRadius": 0,
+"Speed": 5,
+"Defense": 0,
+"Attack": 0
+  }
+},
+"Texture": "Mods/Fellowclown.SW/Objects",
+"SpriteIndex": 13
+  },
+}
+  },
+ {
+"Action": "EditData",
+"Target": "Data/Objects",
+"Entries": {
+  "Fellowclown.SW_LavaHoney": {
+"Name": "Fellowclown.SW_LavaHoney",
+"DisplayName": "{{i18n:FC.LavaHoney}}",
+"Description": "{{i18n:FC.LavaHoney.Desc}}",
+"Type": "Artisan Goods",
+"Category": -26,
+ "Price": 2010,
+"Edibility": 30,
+"IsDrink": true,
+"ExcludeFromPerfectionShipping": true,
+"Buff": {
+  "BuffId": "{{i18n:FC.LavaHoney.Buff}}",
+  "Duration": 10,
+  "CustomAttributes": {
+"FarmingLevel": 0,
+"FishingLevel": 0,
+"MiningLevel": 1,
+"LuckLevel": 0,
+"ForagingLevel": 0,
+"MaxStamina": 0,
+"MagneticRadius": 0,
+"Speed": -1,
+"Defense": 0,
+"Attack": 4
+  }
+},
+"Texture": "Mods/Fellowclown.SW/Objects",
+"SpriteIndex": 10,
+  },
+
+}
+  },
+   {
+"Action": "EditData",
+"Target": "Data/Objects",
+"Entries": {
+  "Fellowclown.SW_SeafoamHoney": {
+"Name": "Fellowclown.SW_SeafoamHoney",
+"DisplayName": "{{i18n:FC.SeafoamHoney}}",
+"Description": "{{i18n:FC.SeafoamHoney.Desc}}",
+"Type": "Artisan Goods",
+"Category": -26,
+ "Price": 2020,
+"Edibility": 35,
+"IsDrink": true,
+"ExcludeFromPerfectionShipping": true,
+"Buff": {
+  "BuffId": "{{i18n:FC.SeafoamHoney.Buff}}",
+  "Duration": 15,
+  "CustomAttributes": {
+"FarmingLevel": 0,
+"FishingLevel": 5,
+"MiningLevel": 0,
+"LuckLevel": 0,
+"ForagingLevel": 0,
+"MaxStamina": 0,
+"MagneticRadius": 0,
+"Speed": 0,
+"Defense": 0,
+"Attack": 0
+  }
+},
+"Texture": "Mods/Fellowclown.SW/Objects",
+"SpriteIndex": 11
+  },
+
+}
+  },
+   {
+"Action": "EditData",
+"Target": "Data/Objects",
+"Entries": {
+  "Fellowclown.SW_SnowHoney": {
+"Name": "Fellowclown.SW_SnowHoney",
+"DisplayName": "{{i18n:FC.SnowHoney}}",
+"Description": "{{i18n:FC.SnowHoney.Desc}}",
+"Type": "Artisan Goods",
+"Category": -26,
+ "Price": 2030,
+"Edibility": 30,
+"IsDrink": true,
+"ExcludeFromPerfectionShipping": true,
+"Buff": {
+  "BuffId": "{{i18n:FC.SnowHoney.Buff}}",
+  "Duration": 15,
+  "CustomAttributes": {
+"FarmingLevel": 0,
+"FishingLevel": 5,
+"MiningLevel": 0,
+"LuckLevel": 0,
+"ForagingLevel": 5,
+"MaxStamina": 0,
+"MagneticRadius": 0,
+"Speed": 4,
+"Defense": 0,
+"Attack": 0
+  }
+},
+"Texture": "Mods/Fellowclown.SW/Objects",
+"SpriteIndex": 14
+  },
+
+}
+  },
+ {
+"Action": "EditData",
+"Target": "Data/Objects",
+"Entries": {
+  "Fellowclown.SW_SunshineHoney": {
+"Name": "Fellowclown.SW_SunshineHoney",
+"DisplayName": "{{i18n:FC.SunshineHoney}}",
+"Description": "{{i18n:FC.SunshineHoney.Desc}}",
+"Type": "Artisan Goods",
+"Category": -26,
+ "Price": 3000,
+"Edibility": 60,
+"IsDrink": true,
+"ExcludeFromPerfectionShipping": true,
+"Buff": {
+  "BuffId": "{{i18n:FC.SunshineHoney.Buff}}",
+  "Duration": 84,
+  "CustomAttributes": {
+"FarmingLevel": 0,
+"FishingLevel": 0,
+"MiningLevel": 0,
+"LuckLevel": 6,
+"ForagingLevel": 0,
+"MaxStamina": 0,
+"MagneticRadius": 0,
+"Speed":2,
+"Defense": 0,
+"Attack": 0
+  }
+},
+"Texture": "Mods/Fellowclown.SW/Objects",
+"SpriteIndex": 15
+  },
+
+}
+  },
+{
+"Action": "EditData",
+"Target": "Data/Objects",
+"Entries": {
+  "Fellowclown.SW_VoidHoney": {
+"Name": "Fellowclown.SW_VoidHoney",
+"DisplayName": "{{i18n:FC.VoidHoney}}",
+"Description": "{{i18n:FC.VoidHoney.Desc}}",
+"Type": "Artisan Goods",
+"Category": -26,
+ "Price": 3000,
+"Edibility": -20,
+"IsDrink": true,
+"ExcludeFromPerfectionShipping": true,
+"Buff": {
+  "BuffId": "{{i18n:FC.VoidHoney.Buff}}",
+  "Duration": 126,
+  "CustomAttributes": {
+"FarmingLevel": 0,
+"FishingLevel": 0,
+"MiningLevel": 2,
+"LuckLevel": 0,
+"ForagingLevel": 0,
+"MaxStamina": 0,
+"MagneticRadius": 0,
+"Speed":-4,
+"Defense": 2,
+"Attack": 6
+  }
+},
+"Texture": "Mods/Fellowclown.SW/Objects",
+"SpriteIndex": 12
+  },
+
+}
+  },
+ {
+"Action": "EditData",
+"Target": "Data/Objects",
+"Entries": {
+  "Fellowclown.SW_ChocoFrog": {
+"Name": "Fellowclown.SW_ChocoFrog",
+"DisplayName": "{{i18n:FC.ChocoFrog}}",
+"Description": "{{i18n:FC.ChocoFrog.Desc}}",
+"Type": "Artisan Goods",
+"Category": -26,
+ "Price": 110,
+"Edibility": 10,
+"IsDrink": false,
+"ExcludeFromPerfectionShipping": true,
+"Buff": {
+  "BuffId": "{{i18n:FC.ChocoFrog.Buff}}",
+  "Duration": 5,
+  "CustomAttributes": {
+"FarmingLevel": 0,
+"FishingLevel": 0,
+"MiningLevel": 0,
+"LuckLevel": 0,
+"ForagingLevel": 0,
+"MaxStamina": 0,
+"MagneticRadius": 0,
+"Speed":4,
+"Defense": 0,
+"Attack": 0
+  }
+},
+"Texture": "Mods/Fellowclown.SW/Objects",
+"SpriteIndex": 5
+  },
+
+}
+  },
+   {
+"Action": "EditData",
+"Target": "Data/Objects",
+"Entries": {
+  "Fellowclown.SW_RainbowHoneyPichi": {
+"Name": "Fellowclown.SW_RainbowHoneyPichi",
+"DisplayName": "{{i18n:FC.RainbowHoneyPichi}}",
+"Description": "{{i18n:FC.RainbowHoneyPichi.Desc}}",
+"Type": "Artisan Goods",
+"Category": -26,
+ "Price": 120,
+"Edibility":20,
+"IsDrink": false,
+"ExcludeFromPerfectionShipping": true,
+"Buff": {
+  "BuffId": "{{i18n:FC.RainbowHoneyPichi.Buff}}",
+  "Duration": 10,
+  "CustomAttributes": {
+"FarmingLevel": 0,
+"FishingLevel": 0,
+"MiningLevel": 0,
+"LuckLevel": 5,
+"ForagingLevel": 0,
+"MaxStamina": 2,
+"MagneticRadius": 0,
+"Speed":0,
+"Defense": 0,
+"Attack": 0
+  }
+},
+"Texture": "Mods/Fellowclown.SW/Objects",
+"SpriteIndex": 4
+  },
+
+}
+  },
+ {
+"Action": "EditData",
+"Target": "Data/Objects",
+"Entries": {
+  "Fellowclown.SW_JellyBellyBumbleBees": {
+"Name": "Fellowclown.SW_JellyBellyBumbleBees",
+"DisplayName": "{{i18n:FC.JellyBellyBumbleBees}}",
+"Description": "{{i18n:FC.jellJellyBellyBumbleBeesybees.Desc}}",
+"Type": "Artisan Goods",
+"Category": -26,
+ "Price": 130,
+"Edibility": 30,
+"IsDrink": false,
+"ExcludeFromPerfectionShipping": true,
+"Buff": {
+  "BuffId": "{{i18n:FC.JellyBellyBumbleBees.Buff}}",
+  "Duration": 15,
+  "CustomAttributes": {
+"FarmingLevel": 0,
+"FishingLevel": 0,
+"MiningLevel": 0,
+"LuckLevel": 0,
+"ForagingLevel": 0,
+"MaxStamina": 6,
+"MagneticRadius": 0,
+"Speed":3,
+"Defense": 0,
+"Attack": 0
+  }
+},
+"Texture": "Mods/Fellowclown.SW/Objects",
+"SpriteIndex": 6
+  },
+
+}
+  },
+   {
+"Action": "EditData",
+"Target": "Data/Objects",
+"Entries": {
+  "Fellowclown.SW_HoneyDrops": {
+"Name": "Fellowclown.SW_HoneyDrops",
+"DisplayName": "{{i18n:FC.HoneyDrops}}",
+"Description": "{{i18n:FC.HoneyDrops.Desc}}",
+"Type": "Artisan Goods",
+"Category": -26,
+ "Price": 150,
+"Edibility": 40,
+"IsDrink": false,
+"ExcludeFromPerfectionShipping": true,
+"Buff": {
+  "BuffId": "{{i18n:FC.HoneyDrops.Buff}}",
+  "Duration": 20,
+  "CustomAttributes": {
+"FarmingLevel": 4,
+"FishingLevel": 0,
+"MiningLevel": 0,
+"LuckLevel": 1,
+"ForagingLevel": 0,
+"MaxStamina": 0,
+"MagneticRadius": 4,
+"Speed":0,
+"Defense": 0,
+"Attack": 0
+  }
+},
+"Texture": "Mods/Fellowclown.SW/Objects",
+"SpriteIndex": 3
+  },
+
+}
+  },
+{
+"Action": "EditData",
+"Target": "Data/Objects",
+"Entries": {
+  "Fellowclown.SW_ChocoBar": {
+"Name": "Fellowclown.SW_ChocoBar",
+"DisplayName": "{{i18n:FC.ChocoBar}}",
+"Description": "{{i18n:FC.ChocoBar.Desc}}",
+"Type": "Artisan Goods",
+"Category": -26,
+ "Price": 160,
+"Edibility": 50,
+"IsDrink": false,
+"ExcludeFromPerfectionShipping": true,
+"Buff": {
+  "BuffId": "{{i18n:FC.ChocoBar.Buff}}",
+  "Duration": 25,
+  "CustomAttributes": {
+"FarmingLevel": 4,
+"FishingLevel": 0,
+"MiningLevel": 0,
+"LuckLevel": 1,
+"ForagingLevel": 0,
+"MaxStamina": 0,
+"MagneticRadius": 4,
+"Speed":0,
+"Defense": 0,
+"Attack": 0
+  }
+},
+"Texture": "Mods/Fellowclown.SW/Objects",
+"SpriteIndex": 2
+  },
+
+}
+  },
+  {
+"Action": "EditData",
+"Target": "Data/Objects",
+"Entries": {
+  "Fellowclown.SW_BudJelly": {
+"Name": "Fellowclown.SW_BudJelly",
+"DisplayName": "{{i18n:FC.BudJelly}}",
+"Description": "{{i18n:FC.BudJelly.Desc}}",
+"Type": "Artisan Goods",
+"Category": -26,
+ "Price": 170,
+"Edibility": 60,
+"IsDrink": false,
+"ExcludeFromPerfectionShipping": true,
+"Buff": {
+  "BuffId": "{{i18n:FC.budjelly.Buff}}",
+  "Duration": 30,
+  "CustomAttributes": {
+"FarmingLevel": 0,
+"FishingLevel": 0,
+"MiningLevel": 5,
+"LuckLevel": 0,
+"ForagingLevel": 0,
+"MaxStamina": 0,
+"MagneticRadius": 0,
+"Speed":3,
+"Defense": 0,
+"Attack": 0
+  }
+},
+"Texture": "Mods/Fellowclown.SW/Objects",
+"SpriteIndex": 1
+  },
+
+}
+  },
+{
+"Action": "EditData",
+"Target": "Data/Objects",
+"Entries": {
+  "Fellowclown.SW_HoneyGopper": {
+"Name": "Fellowclown.SW_HoneyGopper",
+"DisplayName": "{{i18n:FC.HoneyGopper}}",
+"Description": "{{i18n:FC.HoneyGopper.Desc}}",
+"Type": "Artisan Goods",
+"Category": -26,
+ "Price": 180,
+"Edibility": 70,
+"IsDrink": false,
+"ExcludeFromPerfectionShipping": true,
+"Buff": {
+  "BuffId": "{{i18n:FC.HoneyGopper.Buff}}",
+  "Duration": 35,
+  "CustomAttributes": {
+"FarmingLevel": 0,
+"FishingLevel": 0,
+"MiningLevel": 4,
+"LuckLevel": 8,
+"ForagingLevel": 0,
+"MaxStamina": 0,
+"MagneticRadius": 0,
+"Speed":0,
+"Defense": 0,
+"Attack": 0
+  }
+},
+"Texture": "Mods/Fellowclown.SW/Objects",
+"SpriteIndex": 0
+  },
+}
+  },
+   {
+"Action": "EditData",
+"Target": "Data/Objects",
+"Entries": {
+  "Fellowclown.SW_SnowPop": {
+"Name": "Fellowclown.SW_SnowPop",
+"DisplayName": "{{i18n:FC.SnowPop}}",
+"Description": "{{i18n:FC.SnowPop.Desc}}",
+"Type": "Artisan Goods",
+"Category": -26,
+ "Price": 190,
+"Edibility": 80,
+"IsDrink": false,
+"ExcludeFromPerfectionShipping": true,
+"": {
+  "BuffId": "{{i18n:FC.SnowPop.Buff}}",
+  "Duration": 40,
+  "CustomAttributes": {
+"FarmingLevel": 0,
+"FishingLevel": 0,
+"MiningLevel": 10,
+"LuckLevel": 0,
+"ForagingLevel": 0,
+"MaxStamina": 0,
+"MagneticRadius": 0,
+"Speed":-2,
+"Defense": 0,
+"Attack": 0
+  }
+},
+"Texture": "Mods/Fellowclown.SW/Objects",
+"SpriteIndex": 7
+  },
+}
+  },
+ {
+"Action": "EditData",
+"Target": "Data/Objects",
+"Entries": {
+  "Fellowclown.SW_BayDrop": {
+"Name": "Fellowclown.SW_BayDrop",
+"DisplayName": "{{i18n:FC.BayDrop}}",
+"Description": "{{i18n:FC.BayDrop.Desc}}",
+"Type": "Artisan Goods",
+"Category": -26,
+ "Price": 1000,
+"Edibility": 80,
+"IsDrink": false,
+"ExcludeFromPerfectionShipping": true,
+"Buff": {
+  "BuffId": "{{i18n:FC.BayDrop.Buff}}",
+  "Duration": 45,
+  "CustomAttributes": {
+"FarmingLevel": 0,
+"FishingLevel": 5,
+"MiningLevel": 0,
+"LuckLevel": 3,
+"ForagingLevel": 0,
+"MaxStamina": 0,
+"MagneticRadius": 0,
+"Speed":0,
+"Defense": 0,
+"Attack": -2
+  }
+},
+"Texture": "Mods/Fellowclown.SW/Objects",
+"SpriteIndex": 8
+  },
+}
+  },
+   {
+"Action": "EditData",
+"Target": "Data/Objects",
+"Entries": {
+  "Fellowclown.SW_MegaWrap": {
+"Name": "Fellowclown.SW_MegaWrap",
+"DisplayName": "{{i18n:FC.MegaWrap}}",
+"Description": "{{i18n:FC.MegaWrap.Desc}}",
+"Type": "Artisan Goods",
+"Category": -26,
+ "Price": 100,
+"Edibility": 20,
+"IsDrink": false,
+"ExcludeFromPerfectionShipping": true,
+"Buff": {
+  "BuffId": "{{i18n:FC.MegaWrap.Buff}}",
+  "Duration": 7,
+  "CustomAttributes": {
+"FarmingLevel": 0,
+"FishingLevel": 0,
+"MiningLevel": 0,
+"LuckLevel": 0,
+"ForagingLevel": 0,
+"MaxStamina": 2,
+"MagneticRadius": 0,
+"Speed": -2,
+"Defense": 0,
+"Attack": 0
+  }
+},
+"Texture": "Mods/Fellowclown.SW/Objects",
+"SpriteIndex": 27
+  },
+},
+},
+{
+"Action": "EditData",
+"Target": "Data/Objects",
+"Entries": {
+  "Fellowclown.SW_AcornCake": {
+"Name": "Fellowclown.SW_AcornCake",
+"DisplayName": "{{i18n:FC.AcornCake}}",
+"Description": "{{i18n:FC.AcornCake.Desc}}",
+"Type": "Artisan Goods",
+"Category": -26,
+ "Price": 100,
+"Edibility": 20,
+"IsDrink": false,
+"ExcludeFromPerfectionShipping": true,
+"Buff": {
+  "BuffId": "{{i18n:FC.AcornCake.Buff}}",
+  "Duration": 7,
+  "CustomAttributes": {
+"FarmingLevel": 6,
+"FishingLevel": 0,
+"MiningLevel": 0,
+"LuckLevel": 1,
+"ForagingLevel": 0,
+"MaxStamina": 2,
+"MagneticRadius": 10,
+"Speed": -2,
+"Defense": 0,
+"Attack": 0
+  }
+},
+"Texture": "Mods/Fellowclown.SW/Objects",
+"SpriteIndex": 30
+  },
+},
+},
+   {
+"Action": "EditData",
+"Target": "Data/Objects",
+"Entries": {
+  "Fellowclown.SW_KingsRangoonDish": {
+"Name": "Fellowclown.SW_KingsRangoonDish",
+"DisplayName": "{{i18n:FC.KingsRangoonDish}}",
+"Description": "{{i18n:FC.KingsRangoonDish.Desc}}",
+"Type": "Artisan Goods",
+"Category": -26,
+ "Price": 120,
+"Edibility": 20,
+"IsDrink": false,
+"ExcludeFromPerfectionShipping": true,
+"Buff": {
+  "BuffId": "{{i18n:FC.KingsRangoonDish.Buff}}",
+  "Duration": 7,
+  "CustomAttributes": {
+"FarmingLevel": 0,
+"FishingLevel": 0,
+"MiningLevel": 0,
+"LuckLevel": 5,
+"ForagingLevel": 0,
+"MaxStamina": 2,
+"MagneticRadius": 10,
+"Speed": 4,
+"Defense": 0,
+"Attack": 0
+  }
+},
+"Texture": "Mods/Fellowclown.SW/Objects",
+"SpriteIndex": 28
+  },
+},
+},
+   {
+"Action": "EditData",
+"Target": "Data/Objects",
+"Entries": {
+  "Fellowclown.SW_SweetenBreadPudding": {
+"Name": "Fellowclown.SW_SweetenBreadPudding",
+"DisplayName": "{{i18n:FC.SweetenBreadPudding}}",
+"Description": "{{i18n:FC.SweetenBreadPudding.Desc}}",
+"Type": "Artisan Goods",
+"Category": -26,
+ "Price": 100,
+"Edibility": 10,
+"IsDrink": false,
+"ExcludeFromPerfectionShipping": true,
+"Buff": {
+  "BuffId": "{{i18n:FC.SweetenBreadPudding.Buff}}",
+  "Duration": 7,
+  "CustomAttributes": {
+"FarmingLevel": 2,
+"FishingLevel": 0,
+"MiningLevel": 0,
+"LuckLevel": 0,
+"ForagingLevel": 0,
+"MaxStamina": 0,
+"MagneticRadius": 0,
+"Speed": 2,
+"Defense": 0,
+"Attack": 0
+  }
+},
+"Texture": "Mods/Fellowclown.SW/Objects",
+"SpriteIndex": 29
+  },
+},
+},
+ {
+"Action": "EditData",
+"Target": "Data/Objects",
+"Entries": {
+  "Fellowclown.SW_HoneyCrumble": {
+"Name": "Fellowclown.SW_HoneyCrumble",
+"DisplayName": "{{i18n:FC.HoneyCrumble}}",
+"Description": "{{i18n:FC.HoneyCrumble.Desc}}",
+"Type": "Artisan Goods",
+"Category": -26,
+ "Price": 100,
+"Edibility": 10,
+"IsDrink": false,
+"ExcludeFromPerfectionShipping": true,
+"Buff": {
+  "BuffId": "{{i18n:FC.HoneyCrumble.Buff}}",
+  "Duration": 7,
+  "CustomAttributes": {
+"FarmingLevel": 4,
+"FishingLevel": 0,
+"MiningLevel": 0,
+"LuckLevel": 4,
+"ForagingLevel": 0,
+"MaxStamina": 0,
+"MagneticRadius": 0,
+"Speed": 0,
+"Defense": 0,
+"Attack": 0
+  }
+},
+"Texture": "Mods/Fellowclown.SW/Objects",
+"SpriteIndex": 31
+  },
+},
+},
+{
+"Action": "EditData",
+"Target": "Data/Objects",
+"Entries": {
+  "Fellowclown.SW_MidnightBubbly": {
+"Name": "Fellowclown.SW_MidnightBubbly",
+"DisplayName": "{{i18n:FC.MidnightBubbly}}",
+"Description": "{{i18n:FC.MidnightBubbly.Desc}}",
+"Type": "Artisan Goods",
+"Category": -26,
+ "Price": 100,
+"Edibility": 5,
+"IsDrink": true,
+"ExcludeFromPerfectionShipping": true,
+"Buff": {
+  "BuffId": "{{i18n:FC.MidnightBubbly.Buff}}",
+  "Duration": 7,
+  "CustomAttributes": {
+"FarmingLevel": 0,
+"FishingLevel": 0,
+"MiningLevel": 0,
+"LuckLevel": 0,
+"ForagingLevel": 0,
+"MaxStamina": 0,
+"MagneticRadius": 0,
+"Speed": 0,
+"Defense": 6,
+"Attack": 6
+  }
+},
+"Texture": "Mods/Fellowclown.SW/Objects",
+"SpriteIndex": 26
+  },
+},
+},
+ {
+"Action": "EditData",
+"Target": "Data/Objects",
+"Entries": {
+  "Fellowclown.SW_HotChoco": {
+"Name": "Fellowclown.SW_HotChoco",
+"DisplayName": "{{i18n:FC.HotChoco}}",
+"Description": "{{i18n:FC.HotChoco.Desc}}",
+"Type": "Artisan Goods",
+"Category": -26,
+ "Price": 100,
+"Edibility": 10,
+"IsDrink": true,
+"ExcludeFromPerfectionShipping": true,
+"Buff": {
+  "BuffId": "{{i18n:FC.HotChoco.Buff}}",
+  "Duration": 7,
+  "CustomAttributes": {
+"FarmingLevel": 0,
+"FishingLevel": 0,
+"MiningLevel":2,
+"LuckLevel": 0,
+"ForagingLevel": 1,
+"MaxStamina": 0,
+"MagneticRadius": 0,
+"Speed": 0,
+"Defense": 0,
+"Attack": 0
+  }
+},
+"Texture": "Mods/Fellowclown.SW/Objects",
+"SpriteIndex": 24
+  },
+},
+},
+ {
+"Action": "EditData",
+"Target": "Data/Objects",
+"Entries": {
+  "Fellowclown.SW_LemonberryJuice": {
+"Name": "Fellowclown.SW_LemonberryJuice",
+"DisplayName": "{{i18n:FC.LemonberryJuice}}",
+"Description": "{{i18n:FC.LemonberryJuice.Desc}}",
+"Type": "Artisan Goods",
+"Category": -26,
+ "Price": 100,
+"Edibility": 10,
+"IsDrink": true,
+"ExcludeFromPerfectionShipping": true,
+"Buff": {
+  "BuffId": "{{i18n:FC.LemonberryJuice.Buff}}",
+  "Duration": 7,
+  "CustomAttributes": {
+"FarmingLevel": 0,
+"FishingLevel": 0,
+"MiningLevel":0,
+"LuckLevel": 3,
+"ForagingLevel": 0,
+"MaxStamina": 0,
+"MagneticRadius": 0,
+"Speed": 1,
+"Defense": 0,
+"Attack": 0
+  }
+},
+"Texture": "Mods/Fellowclown.SW/Objects",
+"SpriteIndex": 25
+  },
+},
+},
+ {
+"Action": "EditData",
+"Target": "Data/Objects",
+"Entries": {
+  "Fellowclown.SW_GreenAppleHoneyPop": {
+"Name": "Fellowclown.SW_GreenAppleHoneyPop",
+"DisplayName": "{{i18n:FC.GreenAppleHoneyPop}}",
+"Description": "{{i18n:FC.GreenAppleHoneyPop.Desc}}",
+"Type": "Artisan Goods",
+"Category": -26,
+ "Price": 100,
+"Edibility": 10,
+"IsDrink": true,
+"ExcludeFromPerfectionShipping": true,
+"Buff": {
+  "BuffId": "{{i18n:FC.GreenAppleHoneyPop.Buff}}",
+  "Duration": 7,
+  "CustomAttributes": {
+"FarmingLevel": 0,
+"FishingLevel": 0,
+"MiningLevel":0,
+"LuckLevel": 3,
+"ForagingLevel": 0,
+"MaxStamina": 0,
+"MagneticRadius": 0,
+"Speed": 1,
+"Defense": 0,
+"Attack": 0
+  }
+},
+"Texture": "Mods/Fellowclown.SW/Objects",
+"SpriteIndex": 9
+  },
+},
+},
+ {
+"Action": "EditData",
+"Target": "Data/ClothingInformation",
+"Entries": {
+  "Fellowclown.SW_SunriseShirt": {
+"Name": "Fellowclown.SW_SunriseShirt",
+"DisplayName": "{{i18n:FC.SunriseShir}}",
+"Description": "{{i18n:FC.SunriseShir.Desc}}",
+"Price": 50,
+"Texture": null,
+"SpriteIndex": 0,
+"DefaultColor": null,
+"CanBeDyed": false,
+"IsPrismatic": false,
+"HasSleeves": true,
+"CanChooseDuRingCharacterCustomization": false,
+"CustomFields": {}
+  },
+},
+},
+ {
+"Action": "EditData",
+"Target": "Data/ClothingInformation",
+"Entries": {
+  "Fellowclown.SW_ClusterShroomShirt": {
+"Name": "Fellowclown.SW_ClusterShroomShirt",
+"DisplayName": "{{i18n:FC.clustershroomshirt}}",
+"Description": "{{i18n:FC.clustershroomshirt.Desc}}",
+"Price": 50,
+"Texture": null,
+"SpriteIndex": 1,
+"DefaultColor": null,
+"CanBeDyed": false,
+"IsPrismatic": false,
+"HasSleeves": true,
+"CanChooseDuRingCharacterCustomization": false,
+"CustomFields": {}
+  },
+},
+},
+
+ {
+"Action": "EditData",
+"Target": "Data/Furniture",
+"Entries": {
+"Fellowclown.SW_BrownCouplesSeat": "Fellowclown.SW_BrownCouplesSeat/chair/1 2/1 1/4/5000/0/{{i18n:FC.BrownCouplesSeat}}/0/Mods\\Fellowclown.SW\\Furniture",
+"Fellowclown.SW_YellowCouplesSeat": "Fellowclown.SW_YellowCouplesSeat/chair/1 2/1 1/4/5000/0/{{i18n:FC.YellowCouplesSeat}}/3/Mods\\Fellowclown.SW\\Furniture",
+"Fellowclown.SW_GreenCouplesSeat": "Fellowclown.SW_GreenCouplesSeat/chair/1 2/1 1/4/5000/0/{{i18n:FC.GreenCouplesSeat}}/6/Mods\\Fellowclown.SW\\Furniture",
+"Fellowclown.SW_PinkCouplesSeat": "Fellowclown.SW_PinkCouplesSeat/chair/1 2/1 1/4/5000/0/{{i18n:FC.PinkCouplesSeat}}/9/Mods\\Fellowclown.SW\\Furniture",
+"Fellowclown.SW_BlueCouplesSeat": "Fellowclown.SW_BlueCouplesSeat/chair/1 2/1 1/4/5000/0/{{i18n:FC.BlueCouplesSeat}}/12/Mods\\Fellowclown.SW\\Furniture",
+
+"Fellowclown.SW_OakCoffeeTable": "Fellowclown.SW_OakCoffeeTable/table/2 2/2 2/1/5000/0/{{i18n:FC.OakCoffeeTable}}/15/Mods\\Fellowclown.SW\\Furniture",
+"Fellowclown.SW_WalnutCoffeeTable": "Fellowclown.SW_WalnutCoffeeTable/table/2 2/2 2/1/5000/0/{{i18n:FC.WalnutCoffeeTable}}/17/Mods\\Fellowclown.SW\\Furniture",
+"Fellowclown.SW_BirchCoffeeTable": "Fellowclown.SW_BirchCoffeeTable/table/2 2/2 2/1/5000/0/{{i18n:FC.BirchCoffeeTable}}/19/Mods\\Fellowclown.SW\\Furniture",
+"Fellowclown.SW_CherryCoffeeTable": "Fellowclown.SW_CherryCoffeeTable/table/2 2/2 2/1/5000/0/{{i18n:FC.CherryCoffeeTable}}/21/Mods\\Fellowclown.SW\\Furniture",
+
+
+"Fellowclown.SW_SmallOakCoffeeTable": "Fellowclown.SW_SmallOakCoffeeTable/table/2 2/2 1/1/5000/0/{{i18n:FC.SmallOakCoffeeTable}}/23/Mods\\Fellowclown.SW\\Furniture",
+"Fellowclown.SW_SmallWalnutCoffeeTable": "Fellowclown.SW_SmallWalnutCoffeeTable/table/2 2/2 1/1/5000/0/{{i18n:FC.SmallWalnutCoffeeTable}}/25/Mods\\Fellowclown.SW\\Furniture",
+"Fellowclown.SW_SmallBirchCoffeeTable": "Fellowclown.SW_SmallBirchCoffeeTable/table/2 2/2 1/1/5000/0/{{i18n:FC.SmallBirchCoffeeTable}}/27/Mods\\Fellowclown.SW\\Furniture",
+"Fellowclown.SW_SmallCherryCoffeeTable": "Fellowclown.SW_SmallCherryCoffeeTable/table/2 2/2 1/1/5000/0/{{i18n:FC.SmallCherryCoffeeTable}}/29/Mods\\Fellowclown.SW\\Furniture",
+
+"Fellowclown.SW_MiniOakCoffeeTable": "Fellowclown.SW_MiniOakCoffeeTable/table/1 2/1 1/1/5000/0/{{i18n:FC.MiniOakCoffeeTable}}/31/Mods\\Fellowclown.SW\\Furniture",
+"Fellowclown.SW_MiniWalnutCoffeeTable": "Fellowclown.SW_MiniWalnutCoffeeTable/table/1 2/1 1/1/5000/0/{{i18n:FC.MiniWalnutCoffeeTable}}/64/Mods\\Fellowclown.SW\\Furniture",
+"Fellowclown.SW_MiniBirchCoffeeTable": "Fellowclown.SW_MiniBirchCoffeeTable/table/1 2/1 1/1/5000/0/{{i18n:FC.MiniBirchCoffeeTable}}/65/Mods\\Fellowclown.SW\\Furniture",
+"Fellowclown.SW_MiniCherryCoffeeTable": "Fellowclown.SW_MiniCherryCoffeeTable/table/1 2/1 1/1/50000//{{i18n:FC.MiniCherryCoffeeTable}}/66/Mods\\Fellowclown.SW\\Furniture",
+
+"Fellowclown.SW_Toliet0": "Fellowclown.SW_Toliet0/chair/1 2/1 1/4/5000/0/{{i18n:FC.Toliet0}}/67/Mods\\Fellowclown.SW\\Furniture",
+"Fellowclown.SW_Toliet1": "Fellowclown.SW_Toliet1/chair/1 2/1 1/4/5000/0/{{i18n:FC.Toliet1}}/70/Mods\\Fellowclown.SW\\Furniture",
+"Fellowclown.SW_Toliet2": "Fellowclown.SW_Toliet2/chair/1 2/1 1/4/5000/0/{{i18n:FC.Toliet2}}/73/Mods\\Fellowclown.SW\\Furniture",
+"Fellowclown.SW_Toliet3": "Fellowclown.SW_Toliet3/chair/1 2/1 1/4/5000/0/{{i18n:FC.Toliet3}}/76/Mods\\Fellowclown.SW\\Furniture",
+"Fellowclown.SW_Toliet4": "Fellowclown.SW_Toliet4/chair/1 2/1 1/4/5000/0/{{i18n:FC.Toliet4}}/79/Mods\\Fellowclown.SW\\Furniture",
+"Fellowclown.SW_Toliet5": "Fellowclown.SW_Toliet5/chair/1 2/1 1/4/5000/0/{{i18n:FC.Toliet5}}/82/Mods\\Fellowclown.SW\\Furniture",
+
+"Fellowclown.SW_Sink0": "Fellowclown.SW_Sink0/decor/1 2/1 1/4/5000/0/{{i18n:FC.Sink0}}/85/Mods\\Fellowclown.SW\\Furniture",
+"Fellowclown.SW_Sink1": "Fellowclown.SW_Sink1/decor/1 2/1 1/4/5000/0/{{i18n:FC.Sink1}}/86/Mods\\Fellowclown.SW\\Furniture",
+"Fellowclown.SW_Sink2": "Fellowclown.SW_Sink2/decor/1 2/1 1/4/5000/0/{{i18n:FC.Sink2}}/87/Mods\\Fellowclown.SW\\Furniture",
+"Fellowclown.SW_Sink3": "Fellowclown.SW_Sink3/decor/1 2/1 1/4/5000/0/{{i18n:FC.Sink3}}/88/Mods\\Fellowclown.SW\\Furniture",
+"Fellowclown.SW_Sink4": "Fellowclown.SW_Sink4/decor/1 2/1 1/4/5000/0/{{i18n:FC.Sink4}}/89/Mods\\Fellowclown.SW\\Furniture",
+"Fellowclown.SW_Sink5": "Fellowclown.SW_Sink5/decor/1 2/1 1/4/5000/0/{{i18n:FC.Sink5}}/90/Mods\\Fellowclown.SW\\Furniture",
+"Fellowclown.SW_Bathtub": "Fellowclown.SW_Bathtub/decor/1 3/1 3/1/5000/0/{{i18n:FC.Bathtub}}/123/Mods\\Fellowclown.SW\\Furniture",
+  }
+},
+ {
+"Action": "Load",
+"Target": "Mods/Fellowclown.SW/Objects,Mods/Fellowclown.SW/Shirts,Mods/Fellowclown.SW/Shirts,Mods/Fellowclown.SW/Weapons,Mods/Fellowclown.SW/Furniture",
+"FromFile": "Assets/Objects/{{TargetWithoutPath}}.png"
+},
+]
+}

@@ -1,0 +1,111 @@
+{
+"Changes": [
+ /************************************************
+NPCSPAWNS
+************************************************/
+   {
+"LogName": "Boxy Dispositions",
+"Action": "EditData",
+"Target": "Data/Characters",
+"Entries": {
+"FC.Boxy": {
+"DisplayName":"{{i18n:FC.Boxy}}",
+"Breather": false,
+"Language":"Default",
+"Gender":"Male",
+"Age":"Adult",
+"Manner":"Rude",
+"SocialAnxiety":"Shy",
+"Optimism":"Negative",
+"BirthSeason":"fall",
+"Birthday":"16",
+"HomeRegion":"Town",
+"IsDarkSkinned":false,
+"CanSocialize":true,
+"CanBeRomanced":false,
+"CanReceiveGifts":true,
+"CanCommentOnPurchasedShopItems":false,
+"CanGreetNearbyCharacters":false,
+"CanVisitIsland":"DAY_OF_WEEK Sunday",
+"LoveInterest":null,
+"Calendar":"HiddenUntilMet",
+"SocialTab":"HiddenUntilMet",
+"SocialTabIconSourceRect":null,
+"SpouseAdopts":null,
+"SpouseWantsChildren":null,
+"SpouseGiftJealousy":false,
+"IntroductionsQuest":false,
+"ItemDeliveryQuests":false,
+"PerfectionScore":false,
+"EndSlideShow":"TrailingGroup",
+"DumpsterDiveEmote":"28",
+"DumpsterDiveFriendshipEffect":"0",
+"FlowerDanceCanDance":false,
+"KissSpriteIndex": 28,
+"HiddenProfileEmoteSound": null,
+"HiddenProfileEmoteDuration": -1,
+"HiddenProfileEmoteStartFrame": 37,
+"HiddenProfileEmoteFrameCount": 3,
+"HiddenProfileEmoteFrameDuration": 360.0,
+"ShakePortraits": [
+   7
+],
+"SpouseRoom": {
+"MapAsset": null,
+},
+"SpousePatio":{
+"MapAsset": null,
+},
+
+"SpouseFloors": [ 
+    ],
+"SpouseWallpapers": [],
+"FriendsAndFamily": {
+"FC.Nikolai":"{{i18n:Friend}}",
+"FC.Kaia":"{{i18n:Friend}}",
+"FC.Roswell":"{{i18n:Friend}}",
+},
+"WinterStarGifts": [
+
+],
+"WinterStarParticipant": false,
+"UnlockConditions": null,
+"SpawnIfMissing": true,
+"Home": [
+{
+"Id": "Default",
+"Condition": null,
+"Location": "Fellowclown.ClownCore_OldGraveYard",
+"Tile": {
+"X":12,
+"Y": 24
+},
+"Direction": "right"
+}
+],
+"Appearance": [
+ {
+"ID": "FC.BoxyAsset",
+"Portrait": "{{InternalAssetKey: Assets/Npcs/Portraits/FC.Boxy/FC.Boxy.png}}",
+"Sprite": "{{InternalAssetKey: Assets/Npcs/Characters/FC.Boxy/FC.Boxy.png}}"
+},
+{
+"ID": "FC.BoxyAssetFlowerFestival",
+"Condition": "EVENT_ID festival_spring24",
+"Portrait": "{{InternalAssetKey: Assets/Npcs/Portraits/FC.Boxy/Festivals/flower dance.png}}",
+"Sprite": "{{InternalAssetKey: Assets/Npcs/Characters/FC.Boxy/Festivals/flower dance.png}}",
+"Precedence": -10,
+},
+{
+"ID": "FC.BoxyAssetSpiritseve",
+"Condition": "EVENT_ID festival_fall27",
+"Portrait": "{{InternalAssetKey: Assets/Npcs/Portraits/FC.Boxy/Festivals/spirit's eve.png}}",
+"Sprite": "{{InternalAssetKey: Assets/Npcs/Characters/FC.Boxy/Festivals/spirit's eve.png}}",
+"Precedence": -10,
+},
+],
+}
+}
+},
+]
+}
