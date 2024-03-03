@@ -1,0 +1,202 @@
+{
+"Changes": [
+	 {
+"LogName": "Load Location Maps",
+"Action":"Load",
+"Target":"Maps/Fellowclown.SW_BeeNursery,Maps/Fellowclown.SW_LeslaProperty,Maps/Fellowclown.SW_Marketpalooza,Maps/Fellowclown.SW_NiksRoom,Maps/Fellowclown.SW_NikolaiSpouseRoom,Maps/Fellowclown.SW_NikolaiPatio,Maps/Fellowclown.SW_LeslaHouse",
+"FromFile":"Assets/Maps/Locational Maps/{{TargetWithoutPath}}.tbin"
+},
+     {
+"LogName": "Load Location Maps",
+"Action":"Load",
+"Target":"Maps/Fellowclown.SW_Birthday",
+"FromFile":"Assets/Maps/Event Maps/{{TargetWithoutPath}}.tbin"
+},
+{
+    "LogName": "Fellowclown.SW_BeeNursery",
+    "Action": "EditData",
+    "Target": "Data/Locations",
+    "Entries": {
+        "Fellowclown.SW_BeeNursery": {
+            "DisplayName": "{{i18n:FC.MapName.BeeNursery}}",
+            "CreateOnLoad": {
+                "MapPath": "Maps/Fellowclown.SW_BeeNursery"
+            },
+            "DefaultArrivalTile": {
+                "X": 8,
+                "Y": 18
+            },
+            "ExcludeFromNpcPathfinding": false,
+            "ArtifactSpots": [],
+            "FishAreas": {},
+            "Fish": [],
+            "Forage": [],
+            "CustomFields": {}
+        }
+    }
+},
+{
+    "LogName": "Lesla Property",
+    "Action": "EditData",
+    "Target": "Data/Locations",
+    "Entries": {
+        "Fellowclown.SW_LeslaProperty": {
+            "DisplayName": "{{i18n:FC.MapName.LeslaProperty}}",
+            "CreateOnLoad": {
+                "MapPath": "Maps/Fellowclown.SW_LeslaProperty"
+            },
+            "DefaultArrivalTile": {
+                "X": 24,
+                "Y": 26
+            },
+            "ExcludeFromNpcPathfinding": false,
+            "ArtifactSpots": [],
+            "FishAreas": {},
+            "Fish": [],
+            "Forage": [],
+            "CustomFields": {}
+        }
+    }
+},
+{
+    "LogName": "Marketpalooza",
+    "Action": "EditData",
+    "Target": "Data/Locations",
+    "Entries": {
+        "Fellowclown.SW_Marketpalooza": {
+            "DisplayName": "{{i18n:MapName.Marketpalooza}}",
+            "CreateOnLoad": {
+                "MapPath": "Maps/Fellowclown.SW_Marketpalooza"
+            },
+            "DefaultArrivalTile": {
+                "X": 4,
+                "Y": 31
+            },
+            "ExcludeFromNpcPathfinding": false,
+            "ArtifactSpots": [],
+            "FishAreas": {},
+            "Fish": [],
+            "Forage": [],
+            "CustomFields": {}
+        }
+    }
+},
+{
+    "LogName": "Lesla House",
+    "Action": "EditData",
+    "Target": "Data/Locations",
+    "Entries": {
+        "Fellowclown.SW_LeslaHouse": {
+            "DisplayName": "{{i18n:FC.MapName.LeslaHouse}}",
+            "CreateOnLoad": {
+                "MapPath": "Maps/Fellowclown.SW_LeslaHouse"
+            },
+            "DefaultArrivalTile": {
+                "X": 4,
+                "Y": 17
+            },
+            "ExcludeFromNpcPathfinding": false,
+            "ArtifactSpots": [],
+            "FishAreas": {},
+            "Fish": [],
+            "Forage": [],
+            "CustomFields": {}
+        }
+    }
+},
+{
+    "LogName": "Niks Room",
+    "Action": "EditData",
+    "Target": "Data/Locations",
+    "Entries": {
+        "Fellowclown.SW_NiksRoom": {
+            "DisplayName": "{{i18n:FC.MapName.NiksRoom}}",
+            "CreateOnLoad": {
+                "MapPath": "Maps/Fellowclown.SW_NiksRoom"
+            },
+            "DefaultArrivalTile": {
+                "X": 5,
+                "Y": 5
+            },
+            "ExcludeFromNpcPathfinding": false,
+            "ArtifactSpots": [],
+            "FishAreas": {},
+            "Fish": [],
+            "Forage": [],
+            "CustomFields": {}
+        }
+    }
+},
+ {
+"LogName": "Map Strings Edit",
+"Action": "EditData",
+"Target": "Strings/StringsFromMaps",
+"Entries": {
+"Marketpalooza.Ginny": "{{i18n:Marketpalooza.Ginny}}",
+"Marketpalooza.Mouse": "{{i18n:Marketpalooza.Mouse}}",
+"Marketpalooza.Weapons": "{{i18n:Marketpalooza.Weapons}}",
+"Marketpalooza.ClosedStand":"{{i18n:Marketpalooza.ClosedStand}}",
+"Marketpalooza.Raffle":"{{i18n:Marketpalooza.Raffle}}",
+"Marketpalooza.Waterfall":"{{i18n:Marketpalooza.Waterfall}}",
+"Marketpalooza.Frogs":"{{i18n:Marketpalooza.Frogs}}",
+"Marketpalooza.Rabbits":"{{i18n:Marketpalooza.Rabbits}}",
+"Marketpalooza.Fabric":"{{i18n:Marketpalooza.Fabric}}",
+"Marketpalooza.ChangingBooth":"{{i18n:Marketpalooza.ChangingBooth}}",
+"Marketpalooza.Krobus":"{{i18n:Marketpalooza.Krobus}}",
+"Marketpalooza.Trash":"{{i18n:Marketpalooza.Trash}}",
+"Marketpalooza.RestRoom":"{{i18n:Marketpalooza.RestRoom}}",
+"Marketpalooza.SnackStand.1":"{{i18n:Marketpalooza.SnackStand.1}}",
+"Marketpalooza.SnackStand.2":"{{i18n:Marketpalooza.SnackStand.2}}",
+"Marketpalooza.Shoes":"{{i18n:Marketpalooza.Shoes}}",
+"Marketpalooza.SabrineAndLilly":"{{i18n:Marketpalooza.SabrineAndLilly}}",
+"Marketpalooza.Pumpkins":"{{i18n:Marketpalooza.Pumpkins}}",
+"Marketpalooza.Gems":"{{i18n:Marketpalooza.Gems}}",
+"Marketpalooza.RobinsFurniture":"{{i18n:Marketpalooza.RobinsFurniture}}",
+"Marketpalooza.HoneyStorage":"{{i18n:Marketpalooza.HoneyStorage}}",
+"LeslaHome.GraveDignity":"{{i18n:LeslaHome.GraveDignity}}",
+"LeslaHome.GraveHonesty":"{{i18n:LeslaHome.GraveHonesty}}",
+"LeslaHome.GraveRespect":"{{i18n:LeslaHome.GraveRespect}}",
+"LeslaHome.GraveInnocent":"{{i18n:LeslaHome.GraveInnocent}}",
+"LeslaHome.GraveChester":"{{i18n:LeslaHome.GraveChester}}",
+"LeslaHome.Warthog":"{{i18n:LeslaHome.Warthog}}",
+"LeslaHome.BlueTinyFlowers":"{{i18n:LeslaHome.BlueTinyFlowers}}",
+"LeslaHome.MailBox":"{{i18n:LeslaHome.MailBox}}",
+"LeslaHome.Bike":"{{i18n:LeslaHome.Bike}}",
+"LeslaHome.Coffee":"{{i18n:LeslaHome.Coffee}}",
+"LeslaHome.FerretCage":"{{i18n:LeslaHome.FerretCage}}",
+"LeslaHome.FridgeDressers":"{{i18n:LeslaHome.FridgeDressers}}",
+"LeslaHome.Fridge":"{{i18n:LeslaHome.Fridge}}",
+"LeslaHome.KitchenStove":"{{i18n:LeslaHome.KitchenStove}}",
+"LeslaHome.Sink":"{{i18n:LeslaHome.Sink}}",
+"LeslaHome.Restroom":"{{i18n:LeslaHome.Restroom}}",
+"LeslaHome.KaiaDresser":"{{i18n:LeslaHome.KaiaDresser}}",
+"LeslaHome.KaiaLongDresser":"{{i18n:LeslaHome.KaiaLongDresser}}",
+"LeslaHome.Kaiaplanter":"{{i18n:LeslaHome.Kaiaplanter}}",
+"LeslaHome.KaiaShelf":"{{i18n:LeslaHome.KaiaShelf}}",
+"LeslaHome.KaiaWineCabinet":"{{i18n:LeslaHome.KaiaWineCabinet}}",
+"LeslaHome.KaiaCloset":"{{i18n:LeslaHome.KaiaCloset}}",
+"LeslaHome.Jumba":"{{i18n:LeslaHome.Jumba}}",
+"LeslaHome.NikCloset":"{{i18n:LeslaHome.NikCloset}}",
+"LeslaHome.NikSink":"{{i18n:LeslaHome.NikSink}}",
+"LeslaHome.NikCounter":"{{i18n:LeslaHome.NikCounter}}",
+"LeslaHome.NikFridge":"{{i18n:LeslaHome.NikFridge}}",
+"LeslaHome.NikDresser":"{{i18n:LeslaHome.NikDresser}}",
+"LeslaHome.NikBarrel":"{{i18n:LeslaHome.NikBarrel}}",
+"Nikolai.Patio":"{{i18n:Nikolai.Patio}}",
+"SpouseRoom.Desk":"{{i18n:SpouseRoom.Desk}}",
+"SpouseRoom.Drawers":"{{i18n:SpouseRoom.Drawers}}",
+"SpouseRoom.Fridge":"{{i18n:SpouseRoom.Fridge}}",
+"BeeNursery.Flowers": "{{i18n:BeeNursery.Flowers}}",
+"BeeNursery.BeeHouse.01":"{{i18n:BeeNursery.BeeHouse.01}}",
+"BeeNursery.BeeHouse.02":"{{i18n:BeeNursery.BeeHouse.02}}",
+"BeeNursery.BeeHouse.03":"{{i18n:BeeNursery.BeeHouse.03}}",
+"BeeNursery.Drawers":"{{i18n:BeeNursery.Drawers}}",
+"BeeNursery.DrinkShelves":"{{i18n:BeeNursery.DrinkShelves}}",
+"BeeNursery.HoneyStorage":"{{i18n:BeeNursery.HoneyStorage}}",
+"BeeNursery.Barrel":"{{i18n:BeeNursery.Barrel}}",
+
+
+}
+ },
+]
+}

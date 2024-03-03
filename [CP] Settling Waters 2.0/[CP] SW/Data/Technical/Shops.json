@@ -1,0 +1,838 @@
+{
+"Changes": [
+
+  {
+"Action": "EditData",
+"Target": "Data/Shops",
+"Entries":
+{
+"Fellowclown.SW_NikolaisShop": {
+"Owners": [
+{
+"Name": "FC.Nikolai",
+"Dialogues": [
+// dialogue any other time
+{
+  "Id": "Fellowclown.SW_NikolaisShop",
+  "Dialogue": "{{i18n:FC.Honeyshop}}"
+},
+]
+},
+],
+"Items": [
+{
+"Id": "(O)Fellowclown.SW_CherryBlossomHoney",
+"Condition": null,
+"Price": 2000,
+"TradeItemId": null,
+"TradeItemAmount": 0,
+"ItemId": "(O)Fellowclown.SW_CherryBlossomHoney",
+"AvailableStock":5,
+"AvailableStockLimit": "player"
+},
+{
+"Id": "Fellowclown.SW_LavaHoney",
+"Condition": null,
+"Price": 205,
+"TradeItemId": null,
+"TradeItemAmount": 0,
+"ItemId": "Fellowclown.SW_LavaHoney",
+"AvailableStock":5,
+"AvailableStockLimit": "player"
+},
+{
+"Id": "Fellowclown.SW_SeafoamHoney",
+"Condition": null,
+"Price": 2020,
+"TradeItemId": null,
+"TradeItemAmount": 0,
+"ItemId": "Fellowclown.SW_SeafoamHoney",
+"AvailableStock":5,
+"AvailableStockLimit": "player"
+},
+{
+"Id": "Fellowclown.SW_SnowHoney",
+"Condition": null,
+"Price": 2030,
+"TradeItemId": null,
+"TradeItemAmount":0,
+"ItemId": "Fellowclown.SW_SnowHoney",
+"AvailableStock":5,
+"AvailableStockLimit": "player"
+},
+  
+  {
+"Id": "Fellowclown.SW_SunshineHoney",
+"Condition": null,
+"Price": 3000,
+"TradeItemId": null,
+"TradeItemAmount":0,
+"ItemId": "Fellowclown.SW_SunshineHoney",
+"AvailableStock":5,
+"AvailableStockLimit": "player"
+},
+  
+  {
+"Id": "Fellowclown.SW_VoidHoney",
+"Condition": null,
+"Price": 3000,
+"TradeItemId": null,
+"TradeItemAmount":0,
+"ItemId": "Fellowclown.SW_VoidHoney",
+"AvailableStock":5,
+"AvailableStockLimit": "player"
+},
+  
+  {
+"Id": "Fellowclown.SW_ChocoFrog",
+"Condition": null,
+"Price": 15,
+"TradeItemId": null,
+"TradeItemAmount":0,
+"ItemId": "Fellowclown.SW_ChocoFrog",
+"AvailableStock":5,
+"AvailableStockLimit": "player"
+},
+  
+  {
+"Id": "Fellowclown.SW_RainbowHoneyPichi",
+"Condition": null,
+"Price": 120,
+"TradeItemId": null,
+"TradeItemAmount":0,
+"ItemId": "Fellowclown.SW_RainbowHoneyPichi",
+"AvailableStock":5,
+"AvailableStockLimit": "player"
+},
+  
+  {
+"Id": "Fellowclown.SW_JellyBellyBumbleBees",
+"Condition": null,
+"Price": 130,
+"TradeItemId": null,
+"TradeItemAmount":0,
+"ItemId": "Fellowclown.SW_JellyBellyBumbleBees",
+"AvailableStock":5,
+"AvailableStockLimit": "player"
+},
+  
+  {
+"Id": "Fellowclown.SW_HoneyDrops",
+"Condition": null,
+"Price": 150,
+"TradeItemId": null,
+"TradeItemAmount":0,
+"ItemId": "Fellowclown.SW_HoneyDrops",
+"AvailableStock":5,
+"AvailableStockLimit": "player"
+},
+  
+  {
+"Id": "Fellowclown.SW_ChocoBar",
+"Condition": null,
+"Price": 160,
+"TradeItemId": null,
+"TradeItemAmount":0,
+"ItemId": "Fellowclown.SW_ChocoBar",
+"AvailableStock":5,
+"AvailableStockLimit": "player"
+},
+  
+  {
+"Id": "Fellowclown.SW_BudJelly",
+"Condition": null,
+"Price": 170,
+"TradeItemId": null,
+"TradeItemAmount":0,
+"ItemId": "Fellowclown.SW_BudJelly",
+"AvailableStock":5,
+"AvailableStockLimit": "player"
+},
+  
+  {
+"Id": "Fellowclown.SW_HoneyGopper",
+"Condition": null,
+"Price": 180,
+"TradeItemId": null,
+"TradeItemAmount":0,
+"ItemId": "Fellowclown.SW_HoneyGopper",
+"AvailableStock":5,
+"AvailableStockLimit": "player"
+},
+  
+  {
+"Id": "Fellowclown.SW_SnowPop",
+"Condition": null,
+"Price": 190,
+"TradeItemId": null,
+"TradeItemAmount":0,
+"ItemId": "Fellowclown.SW_SnowPop",
+"AvailableStock":5,
+"AvailableStockLimit": "player"
+},
+  {
+"Id": "Fellowclown.SW_BayDrop",
+"Condition": null,
+"Price": 1000,
+"TradeItemId": null,
+"TradeItemAmount":0,
+"ItemId": "Fellowclown.SW_BayDrop",
+"AvailableStock":5,
+"AvailableStockLimit": "player"
+},
+  {
+"Id": "Fellowclown.SW_GreenAppleHoneyPop",
+"Condition": null,
+"Price": 1000,
+"TradeItemId": null,
+"TradeItemAmount":0,
+"ItemId": "Fellowclown.SW_GreenAppleHoneyPop",
+"AvailableStock":5,
+"AvailableStockLimit": "player"
+},
+]
+}
+}
+},
+
+  {
+"Action": "EditData",
+"Target": "Data/Shops",
+"Entries":
+{
+"Fellowclown.SW_PierreShop": {
+"Owners": [
+{
+"Name": "Pierre",
+"Dialogues": [
+// dialogue any other time
+{
+  "Id": "Fellowclown.SW_PierreShop",
+  "Dialogue": "{{i18n:FC.PierreShop}}"
+},
+]
+},
+],
+"Items": [
+    {
+"Id": "(O)Fellowclown.SW_ChocoFruitSeeds",
+"Condition": null,
+"Price": 120,
+"TradeItemId": null,
+"TradeItemAmount": 0,
+"ItemId": "(O)Fellowclown.SW_ChocoFruitSeeds",
+"AvailableStock":10,
+"AvailableStockLimit": "player"
+},
+    {
+"Id": "(O)Fellowclown.SW_ButtonFruitSeeds",
+"Condition": null,
+"Price": 140,
+"TradeItemId": null,
+"TradeItemAmount": 0,
+"ItemId": "(O)Fellowclown.SW_ButtonFruitSeeds",
+"AvailableStock":10,
+"AvailableStockLimit": "player"
+},
+    {
+"Id": "(O)Fellowclown.SW_YohoFruitSeeds",
+"Condition": null,
+"Price": 120,
+"TradeItemId": null,
+"TradeItemAmount": 0,
+"ItemId": "(O)Fellowclown.SW_YohoFruitSeeds",
+"AvailableStock":10,
+"AvailableStockLimit": "player"
+},
+   {
+"Id": "(O)Fellowclown.SW_DeepCaveFruitSeeds",
+"Condition": null,
+"Price": 140,
+"TradeItemId": null,
+"TradeItemAmount": 0,
+"ItemId": "(O)Fellowclown.SW_DeepCaveFruitSeeds",
+"AvailableStock":10,
+"AvailableStockLimit": "player"
+},
+   {
+"Id": "Marketpalooza.FurnitureGroup3",
+"AvaliableStock":1,
+"TradeItemId": null,
+"AvailableStockLimit": "Player",
+"RandomItemId": [
+"Fellowclown.SW_MarketpaloozaOddCrow1",
+"Fellowclown.SW_MarketpaloozaOddCrow2",
+"Fellowclown.SW_MarketpaloozaOddCrow3",
+"Fellowclown.SW_MarketpaloozaOddCrow4",
+]
+},
+]
+}
+}
+},
+  {
+"Action": "EditData",
+"Target": "Data/Shops",
+"Entries":
+{
+"Fellowclown.SW_RobinsShop": {
+"Owners": [
+{
+"Name": "Robin",
+"Dialogues": [
+// dialogue any other time
+{
+  "Id": "Fellowclown.SW_RobinFestival",
+  "Dialogue": "{{i18n:FC.RobinsShop}}"
+},
+]
+},
+],
+"Items": [
+    {
+"Id": "Marketpalooza.FurnitureGroup1",
+"AvaliableStock": 2,
+"TradeItemId": null,
+"AvailableStockLimit": "Player",
+"RandomItemId": [
+"Fellowclown.SW_BrownCouplesSeat",
+"Fellowclown.SW_YellowCouplesSeat",
+"Fellowclown.SW_GreenCouplesSeat",
+"Fellowclown.SW_PinkCouplesSeat",
+"Fellowclown.SW_BlueCouplesSeat",
+]
+},
+    {
+"Id": "Marketpalooza.FurnitureGroup2",
+"AvaliableStock": 2,
+"TradeItemId": null,
+"AvailableStockLimit": "Player",
+"RandomItemId": [
+"Fellowclown.SW_OakCoffeeTable",
+"Fellowclown.SW_WalnutCoffeeTable",
+"Fellowclown.SW_BirchCoffeeTable",
+"Fellowclown.SW_CherryCoffeeTable",
+]
+},
+    {
+"Id": "Marketpalooza.FurnitureGroup3",
+"AvaliableStock": 2,
+"TradeItemId": null,
+"AvailableStockLimit": "Player",
+"RandomItemId": [
+"Fellowclown.SW_SmallOakCoffeeTable",
+"Fellowclown.SW_SmallWalnutCoffeeTable",
+"Fellowclown.SW_SmallBirchCoffeeTable",
+"Fellowclown.SW_SmallCherryCoffeeTable",
+]
+},
+   {
+"Id": "Marketpalooza.FurnitureGroup4",
+"AvaliableStock": 2,
+"TradeItemId": null,
+"AvailableStockLimit": "Player",
+"RandomItemId": [
+"Fellowclown.SW_MiniOakCoffeeTable",
+"Fellowclown.SW_MiniWalnutCoffeeTable",
+"Fellowclown.SW_MiniBirchCoffeeTable",
+"Fellowclown.SW_MiniCherryCoffeeTable",
+]
+},
+   {
+"Id": "Marketpalooza.FurnitureGroup4",
+"AvaliableStock": 2,
+"TradeItemId": null,
+"AvailableStockLimit": "Player",
+"RandomItemId": [
+"Fellowclown.SW_Toliet0",
+"Fellowclown.SW_Toliet1",
+"Fellowclown.SW_Toliet2",
+"Fellowclown.SW_Toliet3",
+"Fellowclown.SW_Toliet5",
+]
+},
+   {
+"Id": "Marketpalooza.FurnitureGroup5",
+"AvaliableStock": 2,
+"TradeItemId": null,
+"AvailableStockLimit": "Player",
+"RandomItemId": [
+"Fellowclown.SW_Sink0",
+"Fellowclown.SW_Sink1",
+"Fellowclown.SW_Sink2",
+"Fellowclown.SW_Sink3",
+"Fellowclown.SW_Sink4",
+"Fellowclown.SW_Sink5",
+]
+},
+{
+"Id": "Fellowclown.SW_Bathtub",
+"ItemId": "Fellowclown.SW_Bathtub",
+"AvailableStock":1,
+"AvailableStockLimit": "player"
+},
+]
+}
+}
+},
+  {
+"Action": "EditData",
+"Target": "Data/Shops",
+"Entries":
+{
+"Fellowclown.SW_EmilysShop": {
+"Owners": [
+{
+"Name": "Emily",
+"Dialogues": [
+// dialogue any other time
+{
+  "Id": "Fellowclown.SW_EmilysShop",
+  "Dialogue": "{{i18n:FC.EmilysShop}}"
+},
+]
+},
+],
+"Items": [
+   {
+"Id": "(S)Fellowclown.SW_Shirt0",
+"ItemId": "(S)Fellowclown.SW_Shirt0",
+"AvailableStock":4,
+"AvailableStockLimit": "4"
+},
+  {
+"Id": "(S)Fellowclown.SW_Shirt1",
+"ItemId": "(S)Fellowclown.SW_Shirt1",
+"AvailableStock":4,
+"AvailableStockLimit": "4"
+},
+
+  {
+"Id": "(S)Fellowclown.SW_Shirt2",
+"ItemId": "(S)Fellowclown.SW_Shirt2",
+"AvailableStock":4,
+"AvailableStockLimit": "4"
+},
+
+  {
+"Id": "(S)Fellowclown.SW_Shirt3",
+"ItemId": "(S)Fellowclown.SW_Shirt3",
+"AvailableStock":4,
+"AvailableStockLimit": "4"
+},
+
+  {
+"Id": "(S)Fellowclown.SW_Shirt4",
+"ItemId": "(S)Fellowclown.SW_Shirt4",
+"AvailableStock":4,
+"AvailableStockLimit": "4"
+},
+
+  {
+"Id": "(S)Fellowclown.SW_Shirt5",
+"ItemId": "(S)Fellowclown.SW_Shirt5",
+"AvailableStock":4,
+"AvailableStockLimit": "4"
+},
+  {
+"Id": "(S)Fellowclown.SW_Shirt6",
+"ItemId": "(S)Fellowclown.SW_Shirt6",
+"AvailableStock":4,
+"AvailableStockLimit": "4"
+},
+  {
+"Id": "(S)Fellowclown.SW_Shirt7",
+"ItemId": "(S)Fellowclown.SW_Shirt7",
+"AvailableStock":4,
+"AvailableStockLimit": "4"
+},
+  {
+"Id": "(S)Fellowclown.SW_Shirt8",
+"ItemId": "(S)Fellowclown.SW_Shirt8",
+"AvailableStock":4,
+"AvailableStockLimit": "4"
+},
+  {
+"Id": "(S)Fellowclown.SW_Shirt9",
+"ItemId": "(S)Fellowclown.SW_Shirt9",
+"AvailableStock":4,
+"AvailableStockLimit": "4"
+},
+  {
+"Id": "(S)Fellowclown.SW_Shirt10",
+"ItemId": "(S)Fellowclown.SW_Shirt10",
+"AvailableStock":4,
+"AvailableStockLimit": "4"
+},
+  {
+"Id": "(S)Fellowclown.SW_Shirt11",
+"ItemId": "(S)Fellowclown.SW_Shirt11",
+"AvailableStock":4,
+"AvailableStockLimit": "4"
+},
+  {
+"Id": "(S)Fellowclown.SW_Shirt12",
+"ItemId": "(S)Fellowclown.SW_Shirt12",
+"AvailableStock":4,
+"AvailableStockLimit": "4"
+},
+  {
+"Id": "(S)Fellowclown.SW_Shirt13",
+"ItemId": "(S)Fellowclown.SW_Shirt13",
+"AvailableStock":4,
+"AvailableStockLimit": "4"
+},
+  {
+"Id": "(S)Fellowclown.SW_Shirt14",
+"ItemId": "(S)Fellowclown.SW_Shirt14",
+"AvailableStock":4,
+"AvailableStockLimit": "4"
+},
+  {
+"Id": "(S)Fellowclown.SW_Shirt15",
+"ItemId": "(S)Fellowclown.SW_Shirt15",
+"AvailableStock":4,
+"AvailableStockLimit": "4"
+},
+
+]
+}
+}
+},
+ {
+"Action": "EditData",
+"Target": "Data/Shops",
+"Entries":
+{
+"Fellowclown.SW_GussShop": {
+"Owners": [
+{
+"Name": "Gus",
+"Dialogues": [
+// dialogue any other time
+{
+  "Id": "Fellowclown.SW_GussShop",
+  "Dialogue": "{{i18n:FC.GussShop}}"
+},
+]
+},
+],
+"Items": [
+{
+"Id": "{{i18n:FC.crabrangoons}}",
+"Condition": null,
+"Price": 120,
+"TradeItemId": null,
+"TradeItemAmount": 0,
+"ItemId": "(O)Fellowclown.SW_KingsRangoonDish",
+"AvailableStock":3,
+"AvailableStockLimit": "player"
+},
+{
+"Id": "{{i18n:FC.megawrap}}",
+"Condition": null,
+"Price": 120,
+"TradeItemId": null,
+"TradeItemAmount": 0,
+"ItemId": "(O)Fellowclown.SW_MegaWrap",
+"AvailableStock":3,
+"AvailableStockLimit": "player"
+},
+{
+"Id": "{{i18n:FC.sweetenbreadpudding}}",
+"Condition": null,
+"Price": 100,
+"TradeItemId": null,
+"TradeItemAmount": 0,
+"ItemId": "(O)Fellowclown.SW_SweetenBreadPudding",
+"AvailableStock":3,
+"AvailableStockLimit": "player"
+},
+{
+"Id": "{{i18n:FC.acorncake}}",
+"Condition": null,
+"Price": 100,
+"TradeItemId": null,
+"TradeItemAmount": 0,
+"ItemId": "(O)Fellowclown.SW_AcornCake",
+"AvailableStock":3,
+"AvailableStockLimit": "player"
+},
+{
+"Id": "{{i18n:FC.honeycrumble}}",
+"Condition": null,
+"Price": 100,
+"TradeItemId": null,
+"TradeItemAmount": 0,
+"ItemId": "(O)Fellowclown.SW_HoneyCrumble",
+"AvailableStock":3,
+"AvailableStockLimit": "player"
+},
+
+{
+"Id": "{{i18n:FC.lemonberryjuice}}",
+"Condition": null,
+"Price": 100,
+"TradeItemId": null,
+"TradeItemAmount": 0,
+"ItemId": "(O)Fellowclown.SW_LemonberryJuice",
+"AvailableStock":3,
+"AvailableStockLimit": "player"
+},
+{
+"Id": "{{i18n:FC.midnightbubbly}}",
+"Condition": null,
+"Price": 100,
+"TradeItemId": null,
+"TradeItemAmount": 0,
+"ItemId": "(O)Fellowclown.SW_MidnightBubbly",
+"AvailableStock":3,
+"AvailableStockLimit": "player"
+},
+{
+"Id": "{{i18n:FC.hotchoco}}",
+"Condition": null,
+"Price": 100,
+"TradeItemId": null,
+"TradeItemAmount": 0,
+"ItemId": "(O)Fellowclown.SW_HotChoco",
+"AvailableStock":3,
+"AvailableStockLimit": "player"
+},
+]
+}
+}
+},
+{
+"Action": "EditData",
+"Target": "Data/Shops",
+"Entries":
+{
+"Fellowclown.SW_ShoeShop": {
+"Owners": [
+{
+"Name": "FC.Maverick",
+"Dialogues": [
+// dialogue any other time
+{
+  "Id": "Fellowclown.SW_ShoeShop",
+  "Dialogue": "{{i18n:FC.ShoeShop}}"
+},
+]
+},
+],
+"Items": [
+      {
+"Id": "Fellowclown.ClownCore_FrenchDodoEgg",
+"ItemId": "Fellowclown.ClownCore_FrenchDodoEgg",
+"AvailableStock":2,
+"AvailableStockLimit": "2"
+},
+    {
+"Id": "Fellowclown.ClownCore_Shirt1",
+"ItemId": "Fellowclown.ClownCore_Shirt1",
+"AvailableStock":2,
+"AvailableStockLimit": "2"
+},
+  {
+"Id": "(B)515",
+"ItemId": "(B)515",
+"AvailableStock":4,
+"AvailableStockLimit": "4"
+},
+                        {
+"Id": "(B)504",
+"ItemId": "(B)504",
+"AvailableStock":4,
+"AvailableStockLimit": "4"
+},
+                        {
+"Id": "(B)505",
+"ItemId": "(B)505",
+"AvailableStock":4,
+"AvailableStockLimit": "4"
+},
+                        {
+"Id": "(B)506",
+"ItemId": "(B)506",
+"AvailableStock":4,
+"AvailableStockLimit": "4"
+},
+                        {
+"Id": "(B)507",
+"ItemId": "(B)507",
+"AvailableStock":4,
+"AvailableStockLimit": "4"
+},
+                        {
+"Id": "(B)508",
+"ItemId": "(B)508",
+"AvailableStock":4,
+"AvailableStockLimit": "4"
+},
+                        {
+"Id": "(B)515",
+"ItemId": "(B)515",
+"AvailableStock":4,
+"AvailableStockLimit": "4"
+},
+]
+}
+}
+},
+  {
+"Action": "EditData",
+"Target": "Data/Shops",
+"Entries":
+{
+"Fellowclown.SW_MarlonsShop": {
+"Owners": [
+{
+"Name": "Marlon",
+"Dialogues": [
+// dialogue any other time
+{
+  "Id": "Fellowclown.SW_MarlonsShop",
+  "Dialogue": "{{i18n:FC.MarlonsShop}}"
+},
+]
+},
+],
+"Items": [
+       {
+"Id": "Marketpalooza.WeaponsGroup1",
+"AvaliableStock": 1,
+"Price": 10000,
+"TradeItemId": null,
+"AvailableStockLimit": "Player",
+"RandomItemId": [
+"Fellowclown.SW_Sword0",
+"Fellowclown.SW_Sword1",
+"Fellowclown.SW_Sword2",
+]
+},
+      {
+"Id": "Marketpalooza.WeaponsGroup2",
+"AvaliableStock": 1,
+"Price": 10000,
+"TradeItemId": null,
+"AvailableStockLimit": "Player",
+"RandomItemId": [
+"Fellowclown.SW_Sword3",
+"Fellowclown.SW_Sword4",
+"Fellowclown.SW_Sword5",
+]
+},
+    {
+"Id": "Marketpalooza.RingsGroup1",
+"AvaliableStock": 1,
+"Price": 600,
+"TradeItemId": null,
+"AvailableStockLimit": "Player",
+"RandomItemId": [
+"Fellowclown.SW_Ring0",
+"Fellowclown.SW_Ring1",
+"Fellowclown.SW_Ring2",
+]
+},
+    {
+"Id": "Marketpalooza.RingsGroup2",
+"AvaliableStock": 1,
+"Price": 600,
+"TradeItemId": null,
+"AvailableStockLimit": "Player",
+"RandomItemId": [
+"Fellowclown.SW_Ring3",
+"Fellowclown.SW_Ring4",
+"Fellowclown.SW_Ring5",
+]
+},
+]
+}
+}
+},
+  {
+"Action": "EditData",
+"Target": "Data/Shops",
+"Entries":
+{
+"Fellowclown.SW_ClintsShop": {
+"Owners": [
+{
+"Name": "Clint",
+"Dialogues": [
+// dialogue any other time
+{
+  "Id": "Fellowclown.SW_ClintsShop",
+  "Dialogue": "{{i18n:FC.ClintsShop}}"
+},
+]
+},
+],
+"Items": [
+{
+"Id": "(O)66",
+"ItemId": "(O)66",
+"AvailableStock":2,
+"AvailableStockLimit": "player"
+},
+{
+"Id": "(O)60",
+"ItemId": "(O)60",
+"AvailableStock":2,
+"AvailableStockLimit": "player"
+},
+{
+"Id": "(O)70",
+"ItemId": "(O)70",
+"AvailableStock":2,
+"AvailableStockLimit": "player"
+},
+{
+"Id": "(O)68",
+"ItemId": "(O)68",
+"AvailableStock":2,
+"AvailableStockLimit": "player"
+},
+{
+"Id": "(O)72",
+"ItemId": "(O)72",
+"AvailableStock":2,
+"AvailableStockLimit": "player"
+},
+{
+"Id": "(O)84",
+"ItemId": "(O)84",
+"AvailableStock":2,
+"AvailableStockLimit": "player"
+},
+{
+"Id": "(O)78",
+"ItemId": "(O)78",
+"AvailableStock":2,
+"AvailableStockLimit": "player"
+},
+{
+"Id": "(O)101",
+"ItemId": "(O)101",
+"AvailableStock":2,
+"AvailableStockLimit": "player"
+},
+{
+"Id": "(O)105",
+"ItemId": "(O)105",
+"AvailableStock":2,
+"AvailableStockLimit": "player"
+},
+{
+"Id": "(O)330",
+"ItemId": "(O)330",
+"AvailableStock":999,
+"AvailableStockLimit": "player"
+},
+]
+}
+}
+},
+]
+}

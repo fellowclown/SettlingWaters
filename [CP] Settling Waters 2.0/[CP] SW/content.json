@@ -1,0 +1,66 @@
+{
+"Format":"2.0.0",
+"DynamicTokens": [
+       {
+      "Name": "ValidNpcs",
+      "Value": "Marnie,Emily,Shane,{{PlayerName}}"
+   },
+ {
+      "Name": "ValidNpcs",
+      "Value": "{{ValidNpcs}},Lyell",
+    "When": {
+        "HasMod": "Fellowclown.TW",
+      }
+    },
+     {
+      "Name": "ValidNpcs",
+      "Value": "{{ValidNpcs}},Reyla",
+     "When": {
+        "HasMod": "RaffieJohn.Reyla",
+      }
+    },
+            {
+      "Name": "RaffleWinner",
+      "Value": "{{Random: {{ValidNpcs}}|key=RW}}"
+   },
+    {
+      "Name": "RaffleResult",
+      "Value": "addItem {{Random:Fellowclown.SW_SqueakyAxe,Fellowclown.SW_SqueakyPick,Fellowclown.SW_ColorfulCan,Fellowclown.SW_SqueakyHoe,Fellowclown.SW_SqueakySword}} 1 0", //Better than [ID] because it opens a menu if your inventory is full
+      "When": {
+        "Query: '{{RaffleWinner}}' = '{{PlayerName}}'": true
+      }
+   },
+   {
+    "Name": "RaffleResult",
+    "Value": "",
+    "When": {
+      "Query: '{{RaffleWinner}}' = '{{PlayerName}}'": false
+    }
+ }
+    ],
+"Changes":[
+/************************************************
+ ** Includes
+ ************************************************/
+  {
+"LogName": "Technical Data",
+"Action": "Include",
+"FromFile": "Data/Technical/Crops.json,Data/Technical/Festivals.json,Data/Technical/LocationalMaps.json,Data/Technical/MailTriggers.json,Data/Technical/MapPatches.json,Data/Technical/Marketpalooza.json,Data/Technical/Meep.json,Data/Technical/Music.json,Data/Technical/Objects.json,Data/Technical/Quest.json,Data/Technical/Shops.json,Data/Technical/Tools.json"
+ },
+    {
+"LogName": "Character Data Boxy",
+"Action": "Include",
+"FromFile": "Data/Characters/FC.Boxy/Dialogue.json,Data/Characters/FC.Boxy/Dispositions.json,Data/Characters/FC.Boxy/Events.json,Data/Characters/FC.Boxy/GiftTaste.json,Data/Characters/FC.Boxy/Schedules.json"
+ },
+   {
+"LogName": "Character Data Nikolai",
+"Action": "Include",
+"FromFile": "Data/Characters/FC.Nikolai/Dialogue.json,Data/Characters/FC.Nikolai/Dispositions.json,Data/Characters/FC.Nikolai/Events.json,Data/Characters/FC.Nikolai/GiftTaste.json,Data/Characters/FC.Nikolai/Movies.json,Data/Characters/FC.Nikolai/Schedules.json"
+ },
+    {
+"LogName": "Character Data Kaia",
+"Action": "Include",
+"FromFile": "Data/Characters/FC.Kaia/Dialogue.json,Data/Characters/FC.Kaia/Dispositions.json,Data/Characters/FC.Kaia/Events.json,Data/Characters/FC.Kaia/GiftTaste.json,Data/Characters/FC.Kaia/Movies.json,Data/Characters/FC.Kaia/Schedules.json"
+ },
+],
+}

@@ -1,0 +1,140 @@
+{
+"Changes": [
+     /************************************************
+ Load Blank SCHEDULES
+ ************************************************/
+{
+"LogName": "Schedule",
+"Action": "Load",
+"Target": "Characters/schedules/FC.Kaia,strings/schedules/FC.Kaia",
+"FromFile": "Data/Empty.json",
+},
+
+{
+"Action": "EditData",
+"Target": "Strings/schedules/FC.Kaia",
+"Entries": {
+"Kaia.TW.A": "{{i18n:Kaia.TW.A}}",
+"Kaia.TW.B": "{{i18n:Kaia.TW.B}}",
+"Kaia.TW.C": "{{i18n:Kaia.TW.C}}",
+"Kaia.TD.A": "{{i18n:Kaia.TD.A}}",
+"Kaia.TD.B": "{{i18n:Kaia.TD.B}}",
+"Kaia.MF.A": "{{i18n:Kaia.MF.A}}",
+"Kaia.MF.B": "{{i18n:Kaia.MF.B}}",
+"Kaia.ANL.A": "{{i18n:Kaia.ANL.A}}",
+"Kaia.Sleep": "{{i18n:Kaia.Sleep}}",
+
+"Kaia.Nightmarket.A": "{{i18n:Kaia.Nightmarket.A}}",
+}
+},
+    /************************************************
+ ANIMATIONS 
+ ************************************************/
+ {
+"LogName": "Animations",
+"Action": "EditData",
+"Target": "Data/animationDescriptions",
+"Entries": {
+"Fellowclown.SW_Kaia_SitDrink1": "19/19 19 19 19 19 19 19 19 19 19 20 21 22 22 22 22 22 21 20/19//offset 0 30",
+"Fellowclown.SW_Kaia_Sit2": "16/16/16",
+"Fellowclown.SW_Kaia_SitKick":"23/23 23 23 24 24 24 25 25 25 24 24 24 23 23 23/23",
+"Fellowclown.SW_Kaia_TalkWithHands":"26/26 26 26 26 26 26 27 27 27 27 27 27/27",
+"Fellowclown.SW_Kaia_Sleep":"32/32/32",
+}
+},
+    /************************************************
+ ** Schedules
+ ************************************************/
+
+        /////VANILLA Kaia
+         {
+"LogName": "Kaia's Default Schedule",
+"Action": "EditData",
+"Target": "Characters/schedules/FC.Kaia",
+"Entries": {
+"spring": "GOTO Mon",
+"Mon": "1000 Fellowclown.SW_LeslaHouse 24 14 1/1030 Fellowclown.SW_LeslaHouse 18 14 1 Fellowclown.SW_Kaia_SitDrink1/1200 Fellowclown.SW_BeeNursery 12 15 0/1230 Fellowclown.SW_BeeNursery 11 8 0/1330 AnimalShop 26 15 3 Fellowclown.SW_Kaia_TalkWithHands/1900 Fellowclown.SW_LeslaProperty 26 15 2 Fellowclown.SW_Kaia_Sit2/2130 Fellowclown.SW_LeslaHouse 10 11 2 Fellowclown.SW_Kaia_Sleep \"Strings\\schedules\\FC.Kaia:Kaia.Sleep\"",
+
+"Tue": "610 Fellowclown.SW_LeslaHouse 24 14 1/700 Fellowclown.SW_LeslaHouse 18 14 1 Fellowclown.SW_Kaia_SitDrink1/730 ArchaeologyHouse 6 8 2 \"Strings\\schedules\\FC.Kaia:Kaia.Job\"/1500 SeedShop 35 17 1/1700 Fellowclown.SW_LeslaHouse 18 14 1 Fellowclown.SW_Kaia_SitDrink1/2030 Fellowclown.SW_LeslaHouse 10 11 2 Fellowclown.SW_Kaia_Sleep \"Strings\\schedules\\FC.Kaia:Kaia.Sleep\"",
+
+"Wed": "1000 Fellowclown.SW_LeslaHouse 24 14 1/1030 Fellowclown.SW_LeslaHouse 18 14 1 Fellowclown.SW_Kaia_SitDrink1/1200 Fellowclown.SW_BeeNursery 12 15 0/1400 Mountain 84 9 1/1600 Fellowclown.SW_LeslaHouse 18 14 1 Fellowclown.SW_Kaia_SitDrink1/2000 Fellowclown.SW_LeslaHouse 10 11 2 Fellowclown.SW_Kaia_Sleep \"Strings\\schedules\\FC.Kaia:Kaia.Sleep\"",
+
+"Thu": "610 Fellowclown.SW_LeslaHouse 24 14 1/630 Fellowclown.SW_LeslaHouse 18 14 1 Fellowclown.SW_Kaia_SitDrink1/730 ArchaeologyHouse 6 8 2 \"Strings\\schedules\\FC.Kaia:Kaia.Job\"/2130 Fellowclown.SW_LeslaHouse 10 11 2 Fellowclown.SW_Kaia_Sleep \"Strings\\schedules\\FC.Kaia:Kaia.Sleep\"",
+
+"Fri": "610 Fellowclown.SW_LeslaHouse 24 14 1/700 Fellowclown.SW_LeslaHouse 18 14 1 Fellowclown.SW_Kaia_SitDrink1/1200 Fellowclown.SW_LeslaProperty 26 15 2 Fellowclown.SW_Kaia_Sit2/1300 JojaMart 26 23 1/1900 Fellowclown.SW_LeslaHouse 10 11 2 Fellowclown.SW_Kaia_Sleep \"Strings\\schedules\\FC.Kaia:Kaia.Sleep\"",
+
+"Sat": "GOTO Wed",
+
+"Sun": "GOTO Thu",
+"rain": "GOTO Fri",
+"JojaMart_Replacement": "SeedShop 20 29 1",
+},
+    "When": {
+      "HasFlag|contains=landslideDone": true,
+            }
+        },
+    ////Kaia and Lyell Visit at Lyells place
+           {
+"LogName": "Kaia's Wayfarer Schedule",
+"Action": "EditData",
+"Target": "Characters/schedules/FC.Kaia",
+"Entries": {
+"Mon": "700 Fellowclown.TW_GradysRoom 3 13 0 \"Strings\\schedules\\FC.Kaia:Kaia.TW.A\"/1100 Fellowclown.TW_GradysRoom 6 12 0 \"Strings\\schedules\\FC.Kaia:Kaia.TW.B\"/1300 Fellowclown.TW_LyellsHouse 19 16 2 \"Strings\\schedules\\FC.Kaia:Kaia.TW.C\"/1430 Town 69 92 1/1900 Fellowclown.SW_LeslaHouse 11 11 2 Fellowclown.SW_Kaia_Sleep \"Strings\\schedules\\FC.Kaia:Kaia.Sleep\"",
+},
+      "When": {
+                "HasMod: |contains=Fellowclown.TW": true, 
+                "HasFlag|contains=landslideDone": true,
+             }
+        }, 
+            ////Kaia Visits Barron
+           {
+"LogName": "Kaia's and barron Schedule",
+"Action": "EditData",
+"Target": "Characters/schedules/FC.Kaia",
+"Priority": "Late",
+"Entries": {
+"Tue": "610 Fellowclown.TD_TravelingTrailer 12 15 2 \"Strings\\schedules\\FC.Kaia:Kaia.TD.A\"/1400 Custom_EastScarpeInn 29 30 square_1_2_2 \"Strings\\schedules\\FC.Kaia:Kaia.TD.B\"/2200 Fellowclown.SW_LeslaHouse 11 11 2 Fellowclown.SW_Kaia_Sleep \"Strings\\schedules\\FC.Kaia:Kaia.Sleep\"",
+},
+      "When": {
+                "HasMod: |contains=Fellowclown.TD": true,
+                "HasSeenEvent |contains=Custom_Fellowclown_BarronIntroduction": "true", 
+                "HasFlag|contains=landslideDone": true,
+                "Query: {{Random: {{Range: 1,10}}|key=FC.TD}} = 1": true,
+             }
+        }, 
+                    ////Kaia Visits Alan
+           {
+"LogName": "Kaia's and Dezeries Schedule",
+"Action": "EditData",
+"Target": "Characters/schedules/FC.Kaia",
+"Priority": "Late",
+"Entries": {
+"Fri": "800 Forest 35 12 1 \"Strings\\schedules\\FC.Kaia:Kaia.MF.A\"/1300 Fellowclown.MF_StoneHouse 6 22 1 \"Strings\\schedules\\FC.Kaia:Kaia.MF.B\"/1700 Mountain 84 9 1/1800 Fellowclown.SW_LeslaHouse 18 14 1 Fellowclown.SW_Kaia_SitDrink1/2200 Fellowclown.SW_LeslaHouse 10 11 2 Fellowclown.SW_Kaia_Sleep \"Strings\\schedules\\FC.Kaia:Kaia.Sleep\"",
+},
+      "When": {
+                "HasMod: |contains=Fellowclown.MF": true,
+                "HasFlag|contains=landslideDone": true,
+ 
+             }
+        }, 
+                            ////Kaia goes to Church
+           {
+"LogName": "Kaia's and Johns Schedule",
+"Action": "EditData",
+"Target": "Characters/schedules/FC.Kaia",
+"Priority": "Late",
+"Entries": {
+"Sun": "610 Fellowclown.ANL_Temple 10 21 0 \"Strings\\schedules\\FC.Kaia:Kaia.ANL.A\"/1430 ArchaeologyHouse 6 8 2 \"Strings\\schedules\\FC.Kaia:Kaia.Job\"/2200 Fellowclown.SW_LeslaHouse 11 11 2 Fellowclown.SW_Kaia_Sleep \"Strings\\schedules\\FC.Kaia:Kaia.Sleep\"",
+
+},
+      "When": {
+                "HasMod: |contains=Fellowclown.ANL": true, 
+                "HasSeenEvent |contains=Fellowclown.ANL_TheTemple": true,
+                "HasFlag |contains=Fellowclown.ANL_Temple": true,
+                "HasFlag|contains=landslideDone": true,
+
+             }
+        }, 
+
+]
+}

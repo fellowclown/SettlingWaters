@@ -1,0 +1,216 @@
+{
+"Changes": [
+ 
+ {
+            "Action": "Load",
+            "Target": "Mods/Fellowclown.SW/Crops",
+            "FromFile": "Assets/Objects/{{TargetWithoutPath}}.png"
+        },
+        {
+"Action": "EditData",
+"Target": "Data/Objects",
+"Entries": {
+ "Fellowclown.SW_ChocoFruit": {
+"Name": "Fellowclown.SW_ChocoFruit",
+"DisplayName": "{{i18n:FC.ChocoFruit}}",
+"Description": "{{i18n:FC.ChocoFruit.Desc}}",
+"Type": "Fruit",
+"Category": -79,
+ "Price": 10,
+"Edibility": 20,
+"IsDrink": false,
+ "Texture": "Mods/Fellowclown.SW/Objects",
+"SpriteIndex": 16
+  },
+}
+},
+{
+"Action": "EditData",
+"Target": "Data/Objects",
+"Entries": {
+ "Fellowclown.SW_ChocoFruitSeeds": {
+"Name": "Fellowclown.SW_ChocoFruitSeeds",
+"DisplayName": "{{i18n:FC.ChocoFruitSeeds}}",
+"Description": "{{i18n:FC.ChocoFruitSeeds.desc}}",
+"Type": "Seeds",
+"Category": -74,
+ "Price": 0,
+ "Texture": "Mods/Fellowclown.SW/Objects",
+"SpriteIndex": 20
+  },
+}
+},
+{
+  //Grows in 6 days (Change this later)
+"Action": "EditData",
+"Target": "Data/Crops",
+"Entries": {
+"Fellowclown.SW_ChocoFruitSeeds": {
+"Seasons": [ "fall" ],
+"DaysInPhase": [ 1,2,1,1,1,1], 
+"HarvestItemId": "Fellowclown.SW_ChocoFruit",
+"RegrowDays": "3",
+"IsRaised": false,
+"HarvestMaxIncreasePerFarmingLevel": "0.2",
+"Texture": "Mods/Fellowclown.SW/Crops",
+"SpriteIndex": 2
+}
+}
+},
+{
+"Action": "EditData",
+"Target": "Data/Objects",
+"Entries": {
+ "Fellowclown.SW_ButtonFruit": {
+"Name": "Fellowclown.SW_ButtonFruit",
+"DisplayName": "{{i18n:FC.ButtonFruit}}",
+"Description": "{{i18n:FC.ButtonFruit.Desc}}",
+"Type": "Fruit",
+"Category": -79,
+ "Price": 30,
+"Edibility": -2,
+"IsDrink": false,
+ "Texture": "Mods/Fellowclown.SW/Objects",
+"SpriteIndex": 17
+  },
+}
+},
+{
+"Action": "EditData",
+"Target": "Data/Objects",
+"Entries": {
+ "Fellowclown.SW_ButtonFruitSeeds": {
+"Name": "Fellowclown.SW_ButtonFruitSeeds",
+"DisplayName": "{{i18n:FC.ButtonFruitSeeds}}",
+"Description": "{{i18n:FC.ButtonFruitSeeds.Desc}}",
+"Type": "Seeds",
+"Category": -74,
+ "Price": 0,
+ "Texture": "Mods/Fellowclown.SW/Objects",
+"SpriteIndex": 21
+  },
+}
+},
+{ ///Grows in 8 days (change soon)
+"Action": "EditData",
+"Target": "Data/Crops",
+"Entries": {
+"Fellowclown.SW_ButtonFruitSeeds": {
+"Seasons": [ "fall" ],
+"DaysInPhase": [ 1,1,1,1,1,1,1,1], 
+"HarvestItemId": "Fellowclown.SW_ButtonFruit",
+"RegrowDays": "3",
+"IsRaised": true,
+"HarvestMaxIncreasePerFarmingLevel": "0.2",
+"Texture": "Mods/Fellowclown.SW/Crops",
+"SpriteIndex": 0
+}
+}
+},
+{
+"Action": "EditData",
+"Target": "Data/Objects",
+"Entries": {
+ "Fellowclown.SW_YohoFruit": {
+"Name": "Fellowclown.SW_YohoFruit",
+"DisplayName": "{{i18n:FC.YohoFruit}}",
+"Description": "{{i18n:FC.YohoFruit.Desc}}",
+"Type": "Fruit",
+"Category": -79,
+ "Price": 60,
+"Edibility": 40,
+"IsDrink": false,
+  "CustomAttributes": {
+},
+ "Texture": "Mods/Fellowclown.SW/Objects",
+"SpriteIndex": 18
+  },
+}
+},
+{ //grows in 7 days (change soon)
+"Action": "EditData",
+"Target": "Data/Crops",
+"Entries": {
+"Fellowclown.SW_YohoFruitSeeds": {
+"Seasons": [ "fall" ],
+"DaysInPhase": [ 1,1,1,1,1,1,1], 
+"HarvestItemId": "Fellowclown.SW_YohoFruit",
+"RegrowDays": "3",
+"IsRaised": false,
+"HarvestMaxIncreasePerFarmingLevel": "0.2",
+"Texture": "Mods/Fellowclown.SW/Crops",
+"SpriteIndex": 1
+}
+}
+},
+{
+"Action": "EditData",
+"Target": "Data/Objects",
+"Entries": {
+ "Fellowclown.SW_YohoFruitSeeds": {
+"Name": "Fellowclown.SW_YohoFruitSeeds",
+"DisplayName": "{{i18n:FC.YohoFruitSeeds}}",
+"Description": "{{i18n:FC.YohoFruitSeeds.desc}}",
+"Type": "Seeds",
+"Category": -74,
+ "Price": 0,
+ "Texture": "Mods/Fellowclown.SW/Objects",
+"SpriteIndex": 22
+  },
+}
+},
+{
+"Action": "EditData",
+"Target": "Data/Objects",
+"Entries": {
+ "Fellowclown.SW_DeepCaveFruit": {
+"Name": "Fellowclown.SW_DeepCaveFruit",
+"DisplayName": "{{i18n:FC.DeepCaveFruit}}",
+"Description": "{{i18n:FC.DeepCaveFruit.Desc}}",
+"Type": "Fruit",
+"Category": -79,
+ "Price": 80,
+"Edibility": 50,
+"IsDrink": false,
+  "CustomAttributes": {
+},
+ "Texture": "Mods/Fellowclown.SW/Objects",
+"SpriteIndex": 19
+  },
+}
+},
+{
+"Action": "EditData",
+"Target": "Data/Objects",
+"Entries": {
+ "Fellowclown.SW_DeepCaveFruitSeeds": {
+"Name": "Fellowclown.SW_DeepCaveFruitSeeds",
+"DisplayName": "{{i18n:FC.DeepCaveFruitSeeds}}",
+"Description": "{{i18n:FC.DeepCaveFruitSeeds.desc}}",
+"Type": "Seeds",
+"Category": -74,
+ "Price": 0,
+ "Texture": "Mods/Fellowclown.SW/Objects",
+"SpriteIndex": 23
+  },
+}
+},
+{
+"Action": "EditData",
+"Target": "Data/Crops",
+"Entries": {
+  ///Grows in 8 days (changed soon)
+"Fellowclown.SW_DeepCaveFruitSeeds": {
+"Seasons": [ "fall" ],
+"DaysInPhase": [ 2,2,1,1,1,1], 
+"HarvestItemId": "Fellowclown.SW_DeepCaveFruit",
+"RegrowDays": "4",
+"IsRaised": false,
+"HarvestMaxIncreasePerFarmingLevel": "0.2",
+"Texture": "Mods/Fellowclown.SW/Crops",
+"SpriteIndex": 3
+}
+}
+},
+]
+}

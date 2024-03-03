@@ -1,0 +1,43 @@
+{
+"Changes": [
+    {
+"LogName": "Schedule",
+"Action": "Load",
+"Target": "Characters/schedules/FC.Boxy,strings/schedules/FC.Boxy",
+"FromFile": "Data/Empty.json",
+},
+
+    /************************************************
+ ANIMATIONS 
+ ************************************************/
+  {
+"LogName": "Animations",
+"Action": "EditData",
+"Target": "Data/animationDescriptions",
+"Entries": {
+"{{ModID}}_BoxyRest": "20/20 20 20 20 20 21 21 21 21 21/21",
+"{{ModID}}_BoxyClean": "16/16 16 17 17 17 18 18 18 19 19 19/18",
+"{{ModID}}_BoxyBeg1": "25/25 26 26 27 27 28 28 27 27 26/26",
+"{{ModID}}_BoxyBeg3": "31/31 32 32 33 33 34 34 33 33 32/32",
+}
+ },
+    /************************************************
+ ** FC.Boxy
+ ************************************************/
+           {
+"LogName": "Boxy Schedule",
+"Action": "EditData",
+"Target": "Characters/schedules/FC.Boxy",
+"Entries": {
+"spring": "800 Forest 111 33 2 {{ModID}}_BoxyRest/1200 Beach 10 10 3/1600 Town 32 55 3/2000 ClownCore_OldgraveYard 12 24 2 {{ModID}}_BoxyRest",
+"summer": "800 Town 32 55 3/1200 Town {{Random: 53 63 3 {{ModID}}_BoxyBeg3,18 89 2 {{ModID}}_BoxyBeg1,12 86 2 {{ModID}}_BoxyBeg1}}/1600 Town 49 31 2 {{ModID}}_BoxyClean/2000 ClownCore_OldgraveYard 12 24 2 {{ModID}}_BoxyRest",
+"fall": "800 Mountain 62 10 2 Boxy_Clean/1200 Mountain 31 24 3 {{ModID}}_BoxyRest/1600 Mountain 27 8 1/2000 ClownCore_OldgraveYard 12 24 2 {{ModID}}_BoxyRest",
+"winter": "800 Forest 81 15 1/1200 Forest Forest 111 33 2 {{ModID}}_BoxyRest/1600 Mountain 27 8 1/2000 ClownCore_OldgraveYard 12 24 2 {{ModID}}_BoxyRest",
+"rain": "800 ClownCore_OldgraveYard 12 24 2 {{ModID}}_BoxyRest/1200 Town {{Random: 53 63 3 {{ModID}}_BoxyBeg3,18 89 2 {{ModID}}_BoxyBeg1,12 86 2 {{ModID}}_BoxyBeg1}}/1600 22 24 2 {{ModID}}_BoxyRest/2000 ClownCore_OldgraveYard 12 24 2 {{ModID}}_BoxyRest",
+},
+    "When": {
+      "HasFlag|contains=landslideDone": true,
+            }
+        },
+]
+}
